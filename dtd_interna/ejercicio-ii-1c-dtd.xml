@@ -2,11 +2,7 @@
 
 <!-- ejercicio-ii-1b-dtd.xml Grupo05 -->
 
-<!--Cargado de Estilos de Css-->
-
-<!--Colocar link adecuado-->
-
-<?xml-stylesheet type="text/css" href="" ?>
+<?xml-stylesheet type="text/css" href="../dtd_interna/estilo-ii-1c.css" ?>
 
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
