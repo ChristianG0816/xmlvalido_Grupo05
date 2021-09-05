@@ -1,0 +1,4 @@
+<!-- Tareas.dtd --> 
+<!--Cambienlo sin ningun problema -->
+
+<!ELEMENT tarea (tarea+)>
