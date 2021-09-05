@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejemplodtd1.xml GRUPO05 -->
+<!DOCTYPE fichero [
+		<!ELEMENT fichero (ficha+)>
+		<!ATTLIST fichero nombre CDATA #IMPLIED>
+    <!ELEMENT ficha (nombre+, apellido+, direccion*, DUI?,institucion*)>
+    <!ATTLIST ficha  id CDATA #IMPLIED>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre sexo (masculino|femenino) #IMPLIED>
+    <!ATTLIST nombre edad  CDATA  #IMPLIED>
+    <!ATTLIST nombre tipo (primero|segundo)  #REQUIRED>
+		<!ELEMENT apellido (#PCDATA)>
+		<!ATTLIST apellido tipo (primero|segundo) #REQUIRED>
+		<!ELEMENT direccion (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA)>
+		<!ELEMENT institucion (#PCDATA)*>
+    <!ATTLIST institucion id CDATA  #IMPLIED>
+		<!ATTLIST institucion tipo (Educación|Trabajo)  #IMPLIED>
+]>
+<fichero nombre="Expediente Universitario">
+  <ficha id="1">
+  <nombre sexo="femenino" edad="17" tipo="primero">Angelina</nombre>
+  <nombre tipo="primero">María</nombre>
+  <apellido tipo="primero">Fernandez</apellido>
+  <apellido tipo="segundo">González</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <DUI>05781432-6</DUI>
+  <institucion id="1" tipo="Educación">Universidad de El Salvador</institucion>
+ </ficha>
+ <ficha id="2">
+  <nombre sexo="masculino" edad="25" tipo="primero">Juan</nombre>
+  <nombre tipo="segundo">Carlos</nombre>
+  <apellido tipo="primero">Ortega</apellido>
+  <apellido tipo="segundo">Ramírez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <DUI>05781432-6</DUI>
+  <institucion id="1" tipo="Educación">Uniiversidad de El Salvador</institucion>
+  <institucion id="2" tipo="Trabajo">Almacenes Siman</institucion>
+ </ficha>
+</fichero>
+
