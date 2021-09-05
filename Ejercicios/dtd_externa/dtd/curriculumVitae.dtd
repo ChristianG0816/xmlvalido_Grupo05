@@ -1,5 +1,5 @@
 <!-- curriculumVitae.dtd grupo05 -->
-<!ELEMENT curriculumViitae (datosPersonales, contacto, formacionesAcademicas, experienciaLaborales, competencias, referencias)>
+<!ELEMENT curriculumVitae (datosPersonales, contacto, formacionesAcademicas, experienciaLaborales, competencias, referencias)>
 
 <!ELEMENT datosPersonales(nombre+, apellido+, edad, dui, nit, isss, afp)>
 <!ELEMENT nombre (#PCDATA) #REQUIRIED>
