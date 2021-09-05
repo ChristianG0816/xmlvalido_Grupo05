@@ -18,7 +18,7 @@
 <!ELEMENT correo (#PCDATA) #IMPLIED>
 
 <!ELEMENT formacionesAcademicas (formacionAcademica)+ >
-<!ELEMENT formacionAcademica (institucionEducativa, titulo, perido)>
+<!ELEMENT formacionAcademica (institucionEducativa, titulo, periodo)>
 <!ATTLIST formacionAcademica id CDATA #REQUIRED>
 <!ELEMENT institucionEducativa (#PCDATA) #REQUIRED>
 <!ELEMENT titulo (#PCDATA) #REQUIRED>
