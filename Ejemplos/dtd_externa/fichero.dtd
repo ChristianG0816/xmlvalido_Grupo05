@@ -1,4 +1,4 @@
-<!-- ficha.dtd -->
+<!-- ficha.dtd grupo 05-->
 <!ELEMENT fichero (ficha+)>
 <!ELEMENT ficha (nombre, apellido, direccion*, dui?)>
 <!ELEMENT nombre (#PCDATA)>
