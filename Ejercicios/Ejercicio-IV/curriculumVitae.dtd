@@ -1,0 +1,25 @@
+<!ELEMENT  agenda (propietario , contactos?) >
+<!ELEMENT propietario (nombrepropietario,direccionpropietario)>
+<!ATTLIST propietario 
+sexo (M|F) #FIXED "M"
+edad CDATA #IMPLIED 
+dui CDATA #REQUIRED
+isss CDATA #REQUIRED
+>
+
+<!ELEMENT contactos (contacto*)>
+<!ELEMENT nombrepropietario (#PCDATA)>
+<!ELEMENT direccionpropietario (#PCDATA)>
+<!ELEMENT contacto (nombrecontacto?,direccioncontacto,telefono*)>
+<!ATTLIST contacto 
+num CDATA #REQUIRED
+sexo (M|F) #FIXED "M"
+>
+
+<!ELEMENT nombrecontacto (#PCDATA)>
+<!ELEMENT direccioncontacto (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono 
+tipo (fijo|celular) #REQUIRED
+empresa CDATA #IMPLIED
+>
