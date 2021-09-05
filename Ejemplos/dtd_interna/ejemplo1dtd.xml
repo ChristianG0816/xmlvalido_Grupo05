@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!-- ejemplodtd1.xml -->
+<!-- ejemplodtd1.xml grupo 05 -->
 
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
