@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+curriculumVitae{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100 vh;
+}
+
+contenido{
+    position: relative;
+    width: 70%;
+    max-width: 70%;
+    min-height: 90vh;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+contenido left_Side{
+    position:relative;
+    background: #003147;
+    padding: 40px;
+
+}
+fotografia{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.733);
+}
+fotografia foto{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+contacto{
+    padding-top: 3em;
+    padding-left: 10px;
+}
+contacto celular{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    color: aliceblue;
+    padding-left: 1.5em;
+}
+contacto telefono{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    color: aliceblue;
+    padding-left: 1.5em;
+}
+contacto correo{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    color: aliceblue;
+    padding-left: 1.5em;
+}
+formacionesAcademicas .formacionAcademica{
+    margin-top: 1em;
+}
+formacionAcademica institucionEducativa{
+    display: block;
+    color: aliceblue;
+    font-weight: 500;
+    padding-top: 1em;
+}
+formacionAcademica titulo{
+    display: block;
+    color: aliceblue;
+    font-weight: 500;
+}
+formacionAcademica periodo{
+    display: block;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+
+contenido right_Side{
+    padding: 1em;
+    position:relative;
+    background: #fff;
+
+}
+right_Side datosPersonales{
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+right_Side datosPersonales:last-child{
+    margin-top: 0;
+}
+nombre{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-left: 2.5em;
+}
+apellido{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding-left: 2.5em;
+}
+edad{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding-left: 2.5em;
+}
+dui{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding-left: 2.5em;
+}
+nit{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding-left: 2.5em;
+}
+isss{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding-left: 2.5em;
+}
+afp{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding-left: 2.5em;
+}
+right_Side experienciasLaborales{
+    padding:1em;
+}
+experienciasLaborales experienciaLaboral{
+    padding:1em;
+}
+experienciaLaboral periodo{
+    text-transform: uppercase;
+    color: #003147;
+    margin-top: 10px;
+    display: block;
+    padding-left: 1.5em;
+}
+
+experienciaLaboral institucionLaboral{
+    text-transform: uppercase;
+    color: #003147;
+    margin-top: 10px;
+    display: block;
+    padding-left: 1.5em;
+}
+experienciaLaboral cargo{
+    text-transform: uppercase;
+    color: #003147;
+    margin-top: 10px;
+    padding-left: 1.5em;
+}
+
+right_Side competencias{
+    padding:1em;
+}
+competencias competencia{
+    padding:1em;
+}
+competencia titulo{
+    text-transform: uppercase;
+    color: #003147;
+    margin-top: 10px;
+    display: block;
+    padding-left: 1.5em;
+}
+competencia descripcion{
+    color: #000000;
+    margin-top: 10px;
+    display: block;
+    padding-left: 2.5em;
+}
+right_Side referencias{
+    padding:1em;
+}
+referencias referencia{
+    padding:1em;
+}
+referencia nombre{
+    text-transform: uppercase;
+    color: #003147;
+    margin-top: 10px;
+    display: block;
+    padding-left: 1.5em;
+}
+referencia apellido{
+    text-transform: uppercase;
+    color: #003147;
+    margin-top: 10px;
+    display: block;
+    padding-left: 1.5em;
+}
+referencia institucionLaboral{
+    text-transform: uppercase;
+    color: #003147;
+    margin-top: 10px;
+    display: block;
+    padding-left: 1.5em;
+}
+referencia telefono{
+    text-transform: uppercase;
+    color: #003147;
+    margin-top: 10px;
+    display: block;
+    padding-left: 1.5em;
+}
