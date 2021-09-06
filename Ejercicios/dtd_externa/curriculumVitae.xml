@@ -38,21 +38,21 @@
 
         </left_Side>
 
-        <right_Side>
+        <right_Side titulo="Curriculum Vitae">
 
-            <datosPersonales>
-                <nombre tipo="primero">Pedro</nombre>
+            <datosPersonales name="Datos Personales">
+                <nombre tipo="primero" name="Nombre"> Pedro</nombre>
                 <nombre tipo="segundo">Luis</nombre>
                 <apellido tipo="primero">Sanchez</apellido>
                 <apellido tipo="segundo">Montenegro</apellido>
-                <edad>28</edad>
-                <dui>06974691-3</dui>
-                <nit>45895530659</nit>
-                <isss>5446578457</isss>
-                <afp>5485847359</afp>
+                <edad identificador="Edad">28</edad>
+                <dui identificador="Dui">06974691-3</dui>
+                <nit identificador="Nit">45895530659</nit>
+                <isss identificador="Isss">5446578457</isss>
+                <afp identificador="AFP">5485847359</afp>
             </datosPersonales>
         
-            <experienciaLaborales>
+            <experienciaLaborales titulo="Experiencias Laborales">
                 <experienciaLaboral id="1">
                     <institucionLaboral>UES</institucionLaboral>
                     <cargo>Pasante para Docencia</cargo>
@@ -68,7 +68,7 @@
         
             </experienciaLaborales>
             
-            <competencias>
+            <competencias titulo="Competencias">
                 <competencia id="1">
                     <tituloC>Creatividad</tituloC>
                     <descripcion>Capacidad de demostrar en sus trabajos las ideas sin problemas</descripcion>
@@ -96,7 +96,7 @@
          
             </competencias>
         
-            <referencias>
+            <referencias titulo="Referencias">
                 <referencia id="1">
                     <nombreR tipo="primero">Diego</nombreR>
                     <nombreR tipo="segundo">José</nombreR>

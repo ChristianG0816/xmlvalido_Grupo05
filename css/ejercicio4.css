@@ -3,14 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 curriculumVitae{
-    background: lightblue;
+   background: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100 vh;
+    min-height: 100vh ;
 }
 
 contenido{
@@ -24,12 +25,13 @@ contenido{
     grid-template-columns:1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
+
 contenido left_Side{
     position:relative;
     background: #003147;
     padding: 40px;
-
 }
+
 fotografia{
     position: relative;
     display: flex;
@@ -38,6 +40,7 @@ fotografia{
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.733);
 }
+
 fotografia foto{
     position: relative;
     width: 200px;
@@ -45,10 +48,12 @@ fotografia foto{
     border-radius: 50%;
     overflow: hidden;
 }
+
 contacto{
     padding-top: 3em;
     padding-left: 10px;
 }
+
 contacto celular{
     position: relative;
     margin: 10px 0;
@@ -57,6 +62,7 @@ contacto celular{
     color: aliceblue;
     padding-left: 1.5em;
 }
+
 contacto telefono{
     position: relative;
     margin: 10px 0;
@@ -73,6 +79,7 @@ contacto correo{
     color: aliceblue;
     padding-left: 1.5em;
 }
+
 formacionesAcademicas .formacionAcademica{
     margin-top: 1em;
 }
@@ -82,17 +89,33 @@ formacionAcademica institucionEducativa{
     font-weight: 500;
     padding-top: 1em;
 }
-formacionAcademica titulo{
-    display: block;
-    color: aliceblue;
-    font-weight: 500;
-}
-formacionAcademica periodo{
+
+formacionAcademica tituloAcademico{
     display: block;
     color: aliceblue;
     font-weight: 500;
 }
 
+formacionAcademica periodoE{
+    display: block;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+right_Side[titulo]::before{
+    content: attr(titulo);
+
+    /*Estilos*/
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(18, 29, 39);
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+/*Contenido lado derecho */
 
 contenido right_Side{
     padding: 1em;
@@ -105,9 +128,33 @@ right_Side datosPersonales{
     padding-right: 1em;
     padding-left: 1em;
 }
+
+datosPersonales[name]::before{
+    content: attr(name) ": ";
+
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(7, 102, 190);
+    display:block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 right_Side datosPersonales:last-child{
     margin-top: 0;
 }
+
+nombre[name]::before{
+    content: attr(name) ": ";
+
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(7, 102, 190);
+    display:inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 nombre{
     color: #003147;
     text-transform: uppercase;
@@ -116,6 +163,7 @@ nombre{
     margin-top: 10px;
     padding-left: 2.5em;
 }
+
 apellido{
     color: #003147;
     text-transform: uppercase;
@@ -123,46 +171,143 @@ apellido{
     margin-bottom: 5px;
     padding-left: 2.5em;
 }
+
+edad[identificador]::before{
+    content: attr(identificador) ": ";
+
+    /*Estilos*/
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(205, 75, 231);
+    display: inline-block;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+
 edad{
+    display: block;
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
     padding-left: 2.5em;
 }
+
+dui[identificador]::before{
+    content: attr(identificador) ": ";
+
+    /*Estilos*/
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(99, 176, 248);
+    display: inline-block;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+
 dui{
+    display: block;
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
     padding-left: 2.5em;
 }
+
+nit[identificador]::before{
+    content: attr(identificador) ": ";
+
+    /*Estilos*/
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(34, 135, 230);
+    display: inline-block;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+
 nit{
+    display: block;
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
     padding-left: 2.5em;
 }
+
+isss[identificador]::before{
+    content: attr(identificador) ": ";
+
+    /*Estilos*/
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(230, 60, 18);
+    display: inline-block;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+
 isss{
+    display: block;
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
     padding-left: 2.5em;
 }
+
+afp[identificador]::before{
+    content: attr(identificador) ": ";
+
+    /*Estilos*/
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 156, 23);
+    display: inline-block;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+
 afp{
+    display: block;
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
     padding-left: 2.5em;
 }
-right_Side experienciasLaborales{
+
+/*EXPERIENCIAS LABORALES*/
+
+experienciaLaborales[titulo]::before{
+    content: attr(titulo) ":";
+
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(26, 122, 212);
+    display: block;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+
+right_Side experienciaLaborales{
     padding:1em;
 }
-experienciasLaborales experienciaLaboral{
+
+experienciaLaboral[id]::before{
+    content: attr(id);
+
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(18, 29, 39);
+    display: inline-block;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+
+experienciaLaborales experienciaLaboral{
     padding:1em;
+    display: block;
 }
 experienciaLaboral periodo{
     text-transform: uppercase;
@@ -176,63 +321,113 @@ experienciaLaboral institucionLaboral{
     text-transform: uppercase;
     color: #003147;
     margin-top: 10px;
-    display: block;
-    padding-left: 1.5em;
+    display: inline-block;
+    padding-left: 0.7em;
 }
 experienciaLaboral cargo{
     text-transform: uppercase;
     color: #003147;
     margin-top: 10px;
     padding-left: 1.5em;
+    display: block;
+}
+
+competencias[titulo]::before{
+    content: attr(titulo);
+
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(218, 7, 112);
+    display: block;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
 }
 
 right_Side competencias{
     padding:1em;
 }
-competencias competencia{
+
+competencia[id]::before{
+    content: attr(id);
+
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(18, 29, 39);
+    display: inline-block;
+    padding-top: 20px;
     padding:1em;
+    /*padding-bottom: 20px;*/
 }
-competencia titulo{
+
+/*competencias competencia{
+    padding:1em;
+}*/
+
+competencia tituloC {
     text-transform: uppercase;
     color: #003147;
     margin-top: 10px;
-    display: block;
-    padding-left: 1.5em;
+    display: inline-block;
+    padding-left: 0.1em;
 }
 competencia descripcion{
     color: #000000;
     margin-top: 10px;
     display: block;
-    padding-left: 2.5em;
+    padding-left: 3em;
 }
+
+referencias[titulo]::before{
+    content: attr(titulo);
+    
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(20, 34, 2);
+    display: block;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+
+referencia[id]::before{
+    content: attr(id);
+
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(18, 29, 39);
+    display: inline-block;
+    padding-top: 20px;
+    padding:1em;
+    /*padding-bottom: 20px;*/
+}
+
 right_Side referencias{
     padding:1em;
 }
 referencias referencia{
     padding:1em;
 }
-referencia nombre{
+referencia nombreR {
     text-transform: uppercase;
     color: #003147;
     margin-top: 10px;
-    display: block;
+    display: inline-block;
     padding-left: 1.5em;
 }
-referencia apellido{
+referencia apellidoR {
     text-transform: uppercase;
     color: #003147;
     margin-top: 10px;
-    display: block;
+    display: inline-block;
     padding-left: 1.5em;
 }
-referencia institucionLaboral{
+referencia institucionLaboralR {
     text-transform: uppercase;
     color: #003147;
     margin-top: 10px;
-    display: block;
+    display: inline-block;
     padding-left: 1.5em;
 }
-referencia telefono{
+referencia telefonoR {
     text-transform: uppercase;
     color: #003147;
     margin-top: 10px;
