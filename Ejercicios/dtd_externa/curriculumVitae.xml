@@ -1,6 +1,10 @@
 ﻿<!-- curriculumVitae.dtd grupo05 -->
-<!ELEMENT curriculumViitae (foto, datosPersonales, contacto, formacionesAcademicas, experienciaLaborales, competencias, referencias)>
+<!ELEMENT curriculumVitae (contenido)>
+<!ELEMENT contenido (left_Side,right_Side)>
+<!ELEMENT left_Side (fotografia, formacionesAcademicas, contacto)>
+<!ELEMENT right_Side (datosPersonales, experienciaLaborales, competencias, referencias)>
 
+<!ELEMENT fotografia (foto)>
 <!ELEMENT foto (#PCDATA)>
 
 <!ELEMENT datosPersonales(nombre+, apellido+, edad, dui, nit, isss, afp)>
@@ -20,11 +24,11 @@
 <!ELEMENT correo (#PCDATA) #IMPLIED>
 
 <!ELEMENT formacionesAcademicas (formacionAcademica)+ >
-<!ELEMENT formacionAcademica (institucionEducativa, titulo, perido)>
+<!ELEMENT formacionAcademica (institucionEducativa, tituloAcademico, peridoE)>
 <!ATTLIST formacionAcademica id CDATA #REQUIRED>
 <!ELEMENT institucionEducativa (#PCDATA) #REQUIRED>
-<!ELEMENT titulo (#PCDATA) #REQUIRED>
-<!ELEMENT periodo (#PCDATA) #REQUIRED>
+<!ELEMENT tituloAcademico (#PCDATA) #REQUIRED>
+<!ELEMENT periodoE (#PCDATA) #REQUIRED>
 
 <!ELEMENT experienciaLaborales (experenciaLaboral)+>
 <!ELEMENT experienciaLaboral (institucionLaboral, cargo+, periodo)>
@@ -35,16 +39,16 @@
 
 <!ELEMENT competencias (competencia)+>
 <!ATTLIST competencia id CDATA #REQUIRED>
-<!ELEMENT competencia (titulo, descripcion)>
-<!ELEMENT titulo (#PCDATA) #REQUIRED>
+<!ELEMENT competencia (tituloC, descripcion)>
+<!ELEMENT tituloC (#PCDATA) #REQUIRED>
 <!ELEMENT descripcion (#PCDATA) #REQUIRED>
 
 <!ELEMENT referencias (referecnia)+>
-<!ELEMENT referecnia (nombre+, apellido+, institucionLaboral, telefono+)>
+<!ELEMENT referecnia (nombreR+, apellidoR+, institucionLaboralR, telefonoR+)>
 <!ATTLIST referencia id CDATA #REQUIRED>
-<!ELEMENT nombre (#PCDATA) #REQUIRIED>
-<!ATTLIST nombre tipo (primero|segundo) #REQUIRIED>
-<!ELEMENT apellido (#PCDATA) #REQUIRED>
-<!ATTLIST apellido tipo (primero|segundo) #REQUIRIED>
-<!ELEMENT institucionLaboral (#PCDATA) #REQUIRED>
-<!ELEMENT telefono (#PCDATA) #REQUIRED>
+<!ELEMENT nombreR (#PCDATA) #REQUIRIED>
+<!ATTLIST nombreR tipo (primero|segundo) #REQUIRIED>
+<!ELEMENT apellidoR (#PCDATA) #REQUIRED>
+<!ATTLIST apellidoR tipo (primero|segundo) #REQUIRIED>
+<!ELEMENT institucionLaboralR (#PCDATA) #REQUIRED>
+<!ELEMENT telefonoR (#PCDATA) #REQUIRED>
