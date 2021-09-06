@@ -3,6 +3,10 @@
 
 <!DOCTYPE curriculumVitae SYSTEM "../dtd_externa/dtd/curriculumVitae.dtd" >
 
+<!--Estilos -->
+
+<?xml-stylesheet type="text/css" href="../../../css/ejercicio4.css" ?>
+
 <curriculumVitae>
     
     <datosPersonales>
@@ -58,8 +62,6 @@
             <tituloC>Creatividad</tituloC>
             <descripcion>Capacidad de demostrar en sus trabajos las ideas sin problemas</descripcion>
         </competencia>
-
-        
 
         <competencia id="2">
             <tituloC>Adaptabilidad</tituloC>
