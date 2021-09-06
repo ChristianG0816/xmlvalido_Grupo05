@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejemplodtd1.xml grupo 05 -->
+
+<!DOCTYPE fichero [
+		<!ELEMENT fichero (ficha+)>
+        <!ATTLIST fichero nombre CDATA #IMPLIED>
+		<!ELEMENT ficha (nombres, apellidos, direccion, DUI, estadoCivil, correo?, telefono*,empresa)>
+        <!ATTLIST ficha id CDATA #REQUIRED>
+		<!ELEMENT nombres (#PCDATA)>
+		<!ATTLIST nombres sexo (masculino|femenino) #REQUIRED>
+        <!ATTLIST nombres edad  CDATA  #IMPLIED>
+        <!ATTLIST nombres estado (activo|inactivo) #REQUIRED>
+		<!ELEMENT apellidos (#PCDATA)>
+		<!ELEMENT direccion (pais, ciudad, municipio?, calle)>
+        <!ATTLIST direccion id CDATA #REQUIRED>
+        <!ELEMENT pais (#PCDATA)>
+        <!ELEMENT ciudad (#PCDATA)>
+        <!ELEMENT municipio (#PCDATA)>
+        <!ELEMENT calle (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA)>
+        <!ELEMENT estadoCivil (masculino|femenino)>
+        <!ELEMENT correo (#PCDATA)>
+        <!ATTLIST correo ampresarial (si|no) #REQUIRED>
+        <!ELEMENT telefono (#PCDATA)>
+        <!ATTLIST telefono tipo (fijo|movil) #REQUIRED>
+        <!ELEMENT empresa (#PCDATA)>
+        <!ATTLIST empresa tipo (privada|publica) #REQUIRED>
+		]>
+<fichero nombre="Ficha laboral">
+ <ficha id = "1">
+  <nombres sexo="femenino" edad="22" estado="activo">Angelina Fernanda</nombres>
+  <apellidos>Fernandez Hernandez</apellidos>
+  <direccion id="1">
+  <pais>El Salvador</pais>
+  <ciudad>San Salvador</ciudad>
+  <calle>Calle Ppal Col Escalon</calle>
+  </direccion>
+  <DUI>060605-987</DUI>
+  <estadoCivil>Soltera</estadoCivil>
+  <correo empresarial="si">FG45889@ues.edu.sv</correo>
+  <telefono tipo="fijo">22592209</telefono>
+  <empresa tipo="publica">ANDA</empresa>
+ </ficha>
+
+ <ficha id = "2">
+  <nombres sexo="femenino" edad="22" estado="activo">karen Camila</nombres>
+  <apellidos>Perez Hernandez</apellidos>
+  <direccion id="1">
+  <pais>El Salvador</pais>
+  <ciudad>San Salvador</ciudad>
+  <calle>Calle Ppal Col Medica</calle>
+  </direccion>
+  <DUI>760805-987</DUI>
+  <estadoCivil>Casada</estadoCivil>
+  <correo empresarial="no">PH45889@gmail.com</correo>
+  <telefono tipo="movil">70803109</telefono>
+  <empresa tipo="privada">ANEP</empresa>
+ </ficha>
+</fichero>

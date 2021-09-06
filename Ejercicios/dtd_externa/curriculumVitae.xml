@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<!-- curriculumVitae.dtd grupo05 -->
 <!ELEMENT curriculumVitae (contenido)>
 <!ELEMENT contenido (left_Side,right_Side)>
@@ -52,3 +53,126 @@
 <!ATTLIST apellidoR tipo (primero|segundo) #REQUIRIED>
 <!ELEMENT institucionLaboralR (#PCDATA) #REQUIRED>
 <!ELEMENT telefonoR (#PCDATA) #REQUIRED>
+=======
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- curriculumVitae.xml grupo 05 -->
+
+<!DOCTYPE curriculumVitae SYSTEM "../dtd_externa/dtd/curriculumVitae.dtd" >
+
+<!--Estilos -->
+
+<?xml-stylesheet type="text/css" href="../../../css/ejercicio4.css" ?>
+
+<curriculumVitae>
+    
+    <datosPersonales>
+        <nombre tipo="primero">Pedro</nombre>
+        <nombre tipo="segundo">Luis</nombre>
+        <apellido tipo="primero">Sanchez</apellido>
+        <apellido tipo="segundo">Montenegro</apellido>
+        <edad>28</edad>
+        <dui>06974691-3</dui>
+        <nit>45895530659</nit>
+        <isss>5446578457</isss>
+        <afp>5485847359</afp>
+    </datosPersonales>
+
+    <contacto>
+        <celular>7798-3211</celular>
+        <telefono>2258-7744</telefono>
+        <correo>pesan@gmail.com</correo>
+    </contacto>
+
+    <formacionesAcademicas>
+        <formacionAcademica id="1">
+            <institucionEducativa>CECAM</institucionEducativa>
+            <tituloAcademico>Bachillerato General</tituloAcademico>
+            <periodoE>2007-2018</periodoE>
+        </formacionAcademica>
+
+        <formacionAcademica id="2">
+            <institucionEducativa>UES</institucionEducativa>
+            <tituloAcademico>Ing en sistemas informaticos</tituloAcademico>
+            <periodoE>2019-2025</periodoE>
+        </formacionAcademica>
+    </formacionesAcademicas>
+      
+    <experienciaLaborales>
+        <experienciaLaboral id="1">
+            <institucionLaboral>UES</institucionLaboral>
+            <cargo>Pasante para Docencia</cargo>
+            <periodo>2023-2024</periodo>
+        </experienciaLaboral>
+
+        
+        <experienciaLaboral id="2">
+            <institucionLaboral>ITCA</institucionLaboral>
+            <cargo>Programador</cargo>
+            <periodo>2026-2028</periodo>
+        </experienciaLaboral>
+
+    </experienciaLaborales>
+    
+    <competencias>
+        <competencia id="1">
+            <tituloC>Creatividad</tituloC>
+            <descripcion>Capacidad de demostrar en sus trabajos las ideas sin problemas</descripcion>
+        </competencia>
+
+        <competencia id="2">
+            <tituloC>Adaptabilidad</tituloC>
+            <descripcion>Capacidad de adaptarse ante cualquier situación o persona en un momento dado</descripcion>
+        </competencia>
+        
+        <competencia id="3">
+            <tituloC>Proactividad</tituloC>
+            <descripcion>Capacidad de saber responder ante cualquier circunstancia</descripcion>
+        </competencia>
+
+        <competencia id="4">
+            <tituloC>Comunicación</tituloC>
+            <descripcion>Capacidad de transmitir sus ideas a las personas y compañeros de trabajo </descripcion>
+        </competencia>
+
+        <competencia id="5">
+            <tituloC>Responsabilidad</tituloC>
+            <descripcion>Capacidad de cumplir con sus obligaciones laborales</descripcion>
+        </competencia>
+ 
+
+    </competencias>
+
+    <referencias>
+        <referencia id="1">
+            <nombreR tipo="primero">Diego</nombreR>
+            <nombreR tipo="segundo">José</nombreR>
+            <apellidoR tipo="primero">Ayala</apellidoR>
+            <apellidoR tipo="segundo">Guerra</apellidoR>
+            <institucionLaboralR>SISA</institucionLaboralR>
+            <telefonoR>7795-9572</telefonoR>
+        </referencia>
+
+    
+        <referencia id="2">
+            <nombreR tipo="primero">José</nombreR>
+            <nombreR tipo="segundo">Antonio</nombreR>
+            <apellidoR tipo="primero">Diaz</apellidoR>
+            <apellidoR tipo="segundo">Escobar</apellidoR>
+            <institucionLaboralR>Avianca</institucionLaboralR>
+            <telefonoR>7843-1221</telefonoR>
+        </referencia>
+    
+        <referencia id="3">
+            <nombreR tipo="primero">Gustavo </nombreR>
+            <nombreR tipo="segundo"> Alonso</nombreR>
+            <apellidoR tipo="primero">Vasquéz</apellidoR>
+            <apellidoR tipo="segundo">Rodriguez</apellidoR>
+            <institucionLaboralR>UES</institucionLaboralR>
+            <telefonoR>7755-5918</telefonoR>
+        </referencia>
+    
+
+    </referencias>
+
+</curriculumVitae>
+>>>>>>> d20fb367c7e2a21d70ef3dac5990d010b32e978b

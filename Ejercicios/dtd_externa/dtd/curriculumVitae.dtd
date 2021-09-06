@@ -1,48 +1,48 @@
 <!-- curriculumVitae.dtd grupo05 -->
-<!ELEMENT curriculumViitae (datosPersonales, contacto, formacionesAcademicas, experienciaLaborales, competencias, referencias)>
+<!ELEMENT curriculumVitae (datosPersonales, contacto, formacionesAcademicas, experienciaLaborales, competencias, referencias)>
 
-<!ELEMENT datosPersonales(nombre+, apellido+, edad, dui, nit, isss, afp)>
-<!ELEMENT nombre (#PCDATA) #REQUIRIED>
-<!ATTLIST nombre tipo (primero|segundo) #REQUIRIED>
-<!ELEMENT apellido (#PCDATA) #REQUIRED>
-<!ATTLIST apellido tipo (primero|segundo) #REQUIRIED>
-<!ELEMENT edad (#PCDATA) #REQUIRED>
-<!ELEMENT dui (#PCDATA) #REQUIRED>
-<!ELEMENT nit (#PCDATA) #REQUIRED>
-<!ELEMENT isss (#PCDATA) #REQUIRED>
-<!ELEMENT afp (#PCDATA) #REQUIRED>
+<!ELEMENT datosPersonales (nombre+, apellido+, edad, dui, nit, isss, afp)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre tipo (primero|segundo) #REQUIRED>
+<!ELEMENT apellido (#PCDATA)>
+<!ATTLIST apellido tipo (primero|segundo) #REQUIRED>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT dui (#PCDATA)>
+<!ELEMENT nit (#PCDATA)>
+<!ELEMENT isss (#PCDATA)>
+<!ELEMENT afp (#PCDATA)>
 
 <!ELEMENT contacto (celular+, telefono?, correo?)>
-<!ELEMENT celular (#PCDATA) #REQUIRED>
-<!ELEMENT telefono (#PCDATA) #IMPLIED>
-<!ELEMENT correo (#PCDATA) #IMPLIED>
+<!ELEMENT celular (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
 
-<!ELEMENT formacionesAcademicas (formacionAcademica)+ >
-<!ELEMENT formacionAcademica (institucionEducativa, titulo, perido)>
+<!ELEMENT formacionesAcademicas (formacionAcademica)+>
+<!ELEMENT formacionAcademica (institucionEducativa, tituloAcademico, periodoE)>
 <!ATTLIST formacionAcademica id CDATA #REQUIRED>
-<!ELEMENT institucionEducativa (#PCDATA) #REQUIRED>
-<!ELEMENT titulo (#PCDATA) #REQUIRED>
-<!ELEMENT periodo (#PCDATA) #REQUIRED>
+<!ELEMENT institucionEducativa (#PCDATA)>
+<!ELEMENT tituloAcademico (#PCDATA) >
+<!ELEMENT periodoE (#PCDATA) >
 
-<!ELEMENT experienciaLaborales (experenciaLaboral)+>
+<!ELEMENT experienciaLaborales (experienciaLaboral)+ >
 <!ELEMENT experienciaLaboral (institucionLaboral, cargo+, periodo)>
 <!ATTLIST experienciaLaboral id CDATA #REQUIRED>
-<!ELEMENT institucionLaboral (#PCDATA) #REQUIRED>
-<!ELEMENT cargo (#PCDATA) #REQUIRED>
-<!ELEMENT periodo (#PCDATA) #REQUIRED>
+<!ELEMENT institucionLaboral (#PCDATA)>
+<!ELEMENT cargo (#PCDATA)>
+<!ELEMENT periodo (#PCDATA)>
 
-<!ELEMENT competencias (competencia)+>
+<!ELEMENT competencias (competencia)+ >
 <!ATTLIST competencia id CDATA #REQUIRED>
-<!ELEMENT competencia (titulo, descripcion)>
-<!ELEMENT titulo (#PCDATA) #REQUIRED>
-<!ELEMENT descripcion (#PCDATA) #REQUIRED>
+<!ELEMENT competencia (tituloC, descripcion)>
+<!ELEMENT tituloC (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
 
-<!ELEMENT referencias (referecnia)+>
-<!ELEMENT referecnia (nombre+, apellido+, institucionLaboral, telefono+)>
+<!ELEMENT referencias (referencia)+ >
+<!ELEMENT referencia (nombreR+, apellidoR+, institucionLaboralR, telefonoR+)>
 <!ATTLIST referencia id CDATA #REQUIRED>
-<!ELEMENT nombre (#PCDATA) #REQUIRIED>
-<!ATTLIST nombre tipo (primero|segundo) #REQUIRIED>
-<!ELEMENT apellido (#PCDATA) #REQUIRED>
-<!ATTLIST apellido tipo (primero|segundo) #REQUIRIED>
-<!ELEMENT institucionLaboral (#PCDATA) #REQUIRED>
-<!ELEMENT telefono (#PCDATA) #REQUIRED>
+<!ELEMENT nombreR (#PCDATA)>
+<!ATTLIST nombreR tipo (primero|segundo) #REQUIRED>
+<!ELEMENT apellidoR (#PCDATA)>
+<!ATTLIST apellidoR tipo (primero|segundo) #REQUIRED>
+<!ELEMENT institucionLaboralR (#PCDATA) >
+<!ELEMENT telefonoR (#PCDATA) >
