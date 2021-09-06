@@ -17,27 +17,27 @@
 <!ELEMENT telefono (#PCDATA)>
 <!ELEMENT correo (#PCDATA)>
 
-<!ELEMENT formacionesAcademicas (formacionAcademica)+ >
-<!ELEMENT formacionAcademica (institucionEducativa, tituloUniversitario, periodoE)>
+<!ELEMENT formacionesAcademicas (formacionAcademica)+>
+<!ELEMENT formacionAcademica (institucionEducativa, tituloAcademico, periodoE)>
 <!ATTLIST formacionAcademica id CDATA #REQUIRED>
 <!ELEMENT institucionEducativa (#PCDATA)>
-<!ELEMENT titulo (#PCDATA) >
+<!ELEMENT tituloAcademico (#PCDATA) >
 <!ELEMENT periodoE (#PCDATA) >
 
-<!ELEMENT experienciaLaborales (experenciaLaboral)+>
+<!ELEMENT experienciaLaborales (experienciaLaboral)+ >
 <!ELEMENT experienciaLaboral (institucionLaboral, cargo+, periodo)>
 <!ATTLIST experienciaLaboral id CDATA #REQUIRED>
 <!ELEMENT institucionLaboral (#PCDATA)>
 <!ELEMENT cargo (#PCDATA)>
 <!ELEMENT periodo (#PCDATA)>
 
-<!ELEMENT competencias (competencia)+>
+<!ELEMENT competencias (competencia)+ >
 <!ATTLIST competencia id CDATA #REQUIRED>
-<!ELEMENT competencia (titulo, descripcion)>
-<!ELEMENT tituloUniversitario (#PCDATA)>
+<!ELEMENT competencia (tituloC, descripcion)>
+<!ELEMENT tituloC (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
 
-<!ELEMENT referencias (referencia)+>
+<!ELEMENT referencias (referencia)+ >
 <!ELEMENT referencia (nombreR+, apellidoR+, institucionLaboralR, telefonoR+)>
 <!ATTLIST referencia id CDATA #REQUIRED>
 <!ELEMENT nombreR (#PCDATA)>

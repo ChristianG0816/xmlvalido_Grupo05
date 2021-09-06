@@ -2,3 +2,74 @@
 <!-- curriculumVitae.xml grupo 05 -->
 
 <!DOCTYPE curriculumVitae SYSTEM "../dtd_externa/dtd/curriculumVitae.dtd" >
+
+<curriculumVitae>
+    
+    <datosPersonales>
+        <nombre tipo="primero">Christian</nombre>
+        <nombre tipo="segundo">Javier</nombre>
+        <apellido tipo="primero">Ayala</apellido>
+        <apellido tipo="segundo">Guerra</apellido>
+        <edad>20</edad>
+        <dui>06974691-3</dui>
+        <nit>45895530659</nit>
+        <isss>5446578457</isss>
+        <afp>5485847359</afp>
+    </datosPersonales>
+
+    <contacto>
+        <celular>7895462156</celular>
+        <telefono>22587744</telefono>
+        <correo>hgodhigdo</correo>
+    </contacto>
+
+    <formacionesAcademicas>
+        <formacionAcademica id="1">
+            <institucionEducativa>CECAM</institucionEducativa>
+            <tituloAcademico>Bachillerato General</tituloAcademico>
+            <periodoE>2007-2018</periodoE>
+        </formacionAcademica>
+
+        <formacionAcademica id="2">
+            <institucionEducativa>UES</institucionEducativa>
+            <tituloAcademico>Ing en sistemas informaticos</tituloAcademico>
+            <periodoE>2019-2025</periodoE>
+        </formacionAcademica>
+    </formacionesAcademicas>
+      
+    <experienciaLaborales>
+        <experienciaLaboral id="1">
+            <institucionLaboral>UES</institucionLaboral>
+            <cargo>ksdfksdhfks</cargo>
+            <periodo>46522</periodo>
+        </experienciaLaboral>
+
+        <!--AGREGAR OTRA EXPERIENCIA-->
+
+    </experienciaLaborales>
+    
+    <competencias>
+        <competencia id="1">
+            <tituloC>Competencia 1</tituloC>
+            <descripcion>fkisdfiosfjsif</descripcion>
+        </competencia>
+
+        <!--AGREGAR 4 COMPETENCIAS MAS-->
+
+    </competencias>
+
+    <referencias>
+        <referencia id="1">
+            <nombreR tipo="primero">FULANO</nombreR>
+            <nombreR tipo="segundo">SUTANO</nombreR>
+            <apellidoR tipo="primero">Apellido referencia</apellidoR>
+            <apellidoR tipo="segundo">APellido referencia</apellidoR>
+            <institucionLaboralR>SISA</institucionLaboralR>
+            <telefonoR>2268646549</telefonoR>
+        </referencia>
+
+    <!--AGREGAR 2 PERSONAS MAS DE REFERENCIA-->
+    
+    </referencias>
+
+</curriculumVitae>
