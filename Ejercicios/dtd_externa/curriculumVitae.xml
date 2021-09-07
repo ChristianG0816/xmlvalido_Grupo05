@@ -54,16 +54,16 @@
         
             <experienciaLaborales titulo="Experiencias Laborales">
                 <experienciaLaboral id="1">
-                    <institucionLaboral>UES</institucionLaboral>
-                    <cargo>Pasante para Docencia</cargo>
-                    <periodo>2023-2024</periodo>
+                    <institucionLaboral institucion="Institución">UES</institucionLaboral>
+                    <cargo identificador="Cargo">Pasante para Docencia</cargo>
+                    <periodo identificador="Periodo">2023-2024</periodo>
                 </experienciaLaboral>
         
                 
                 <experienciaLaboral id="2">
-                    <institucionLaboral>ITCA</institucionLaboral>
-                    <cargo>Programador</cargo>
-                    <periodo>2026-2028</periodo>
+                    <institucionLaboral institucion="Institución">ITCA</institucionLaboral>
+                    <cargo identificador="Cargo">Programador</cargo>
+                    <periodo identificador="Periodo">2026-2028</periodo>
                 </experienciaLaboral>
         
             </experienciaLaborales>
@@ -98,31 +98,31 @@
         
             <referencias titulo="Referencias">
                 <referencia id="1">
-                    <nombreR tipo="primero">Diego</nombreR>
+                    <nombreR tipo="primero" name="Nombre">Diego</nombreR>
                     <nombreR tipo="segundo">José</nombreR>
                     <apellidoR tipo="primero">Ayala</apellidoR>
                     <apellidoR tipo="segundo">Guerra</apellidoR>
-                    <institucionLaboralR>SISA</institucionLaboralR>
-                    <telefonoR>7795-9572</telefonoR>
+                    <institucionLaboralR referencia="Institución Laboral">SISA</institucionLaboralR>
+                    <telefonoR tel="Telefono">7795-9572</telefonoR>
                 </referencia>
         
             
                 <referencia id="2">
-                    <nombreR tipo="primero">José</nombreR>
+                    <nombreR tipo="primero" name="Nombre">José</nombreR>
                     <nombreR tipo="segundo">Antonio</nombreR>
                     <apellidoR tipo="primero">Diaz</apellidoR>
                     <apellidoR tipo="segundo">Escobar</apellidoR>
-                    <institucionLaboralR>Avianca</institucionLaboralR>
-                    <telefonoR>7843-1221</telefonoR>
+                    <institucionLaboralR referencia="Institución Laboral">Avianca</institucionLaboralR>
+                    <telefonoR tel="Telefono">7843-1221</telefonoR>
                 </referencia>
             
                 <referencia id="3">
-                    <nombreR tipo="primero">Gustavo </nombreR>
+                    <nombreR tipo="primero" name="Nombre">Gustavo</nombreR>
                     <nombreR tipo="segundo"> Alonso</nombreR>
                     <apellidoR tipo="primero">Vasquéz</apellidoR>
                     <apellidoR tipo="segundo">Rodriguez</apellidoR>
-                    <institucionLaboralR>UES</institucionLaboralR>
-                    <telefonoR>7755-5918</telefonoR>
+                    <institucionLaboralR referencia="Institución Laboral">Universidad de El Salvador</institucionLaboralR>
+                    <telefonoR tel="Telefono">7755-5918</telefonoR>
                 </referencia>
                 
             </referencias>

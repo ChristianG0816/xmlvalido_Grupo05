@@ -118,7 +118,7 @@ right_Side[titulo]::before{
 /*Contenido lado derecho */
 
 contenido right_Side{
-    padding: 1em;
+    padding: 1.5em;
     position:relative;
     background: #fff;
 
@@ -127,17 +127,19 @@ right_Side datosPersonales{
     padding-top: 1em;
     padding-right: 1em;
     padding-left: 1em;
+    padding-bottom: 1em;
 }
 
 datosPersonales[name]::before{
-    content: attr(name) ": ";
+    content: attr(name);
 
     /*Estilos*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(7, 102, 190);
+    color: rgb(0, 0, 0);
     display:block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 25px;
 }
 
 right_Side datosPersonales:last-child{
@@ -146,13 +148,14 @@ right_Side datosPersonales:last-child{
 
 nombre[name]::before{
     content: attr(name) ": ";
-
     /*Estilos*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(7, 102, 190);
+    color: rgb(0, 0, 0);
     display:inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 20px;
+    padding-left: 2.5em;
 }
 
 nombre{
@@ -160,8 +163,8 @@ nombre{
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    margin-top: 10px;
-    padding-left: 2.5em;
+    /*padding-left: 2.5em;*/
+    font-size: 20px;
 }
 
 apellido{
@@ -169,40 +172,48 @@ apellido{
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    padding-left: 2.5em;
+    /*padding-left: 2.5em;*/
+    font-size: 20px;
 }
 
 edad[identificador]::before{
     content: attr(identificador) ": ";
 
     /*Estilos*/
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(205, 75, 231);
+    color: rgb(26, 122, 212);
     display: inline-block;
     padding-top: 20px;
+    padding-left: 2.5em;
+    font-size: 20px;
     /*padding-bottom: 20px;*/
+    padding-right: 0.2em;
 }
 
 edad{
     display: block;
     color: #003147;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 1px;
     margin-bottom: 5px;
-    padding-left: 2.5em;
+    /*padding-left: 2.5em;*/
+    font-size: 20px;
 }
 
 dui[identificador]::before{
     content: attr(identificador) ": ";
 
     /*Estilos*/
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(99, 176, 248);
+    color: rgb(26, 122, 212);
     display: inline-block;
     padding-top: 20px;
+    padding-left: 2.5em;
+    font-size: 20px;
     /*padding-bottom: 20px;*/
+    padding-right: 0.2em;
 }
 
 dui{
@@ -211,19 +222,23 @@ dui{
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    padding-left: 2.5em;
+   /* padding-left: 2.5em; */
+   font-size: 20px;
 }
 
 nit[identificador]::before{
     content: attr(identificador) ": ";
 
     /*Estilos*/
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(34, 135, 230);
+    color: rgb(26, 122, 212);
     display: inline-block;
     padding-top: 20px;
+    padding-left: 2.5em;
+    font-size: 20px;
     /*padding-bottom: 20px;*/
+    padding-right: 0.2em;
 }
 
 nit{
@@ -232,19 +247,23 @@ nit{
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    padding-left: 2.5em;
+  /*  padding-left: 2.5em; */
+  font-size: 20px;
 }
 
 isss[identificador]::before{
     content: attr(identificador) ": ";
 
     /*Estilos*/
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(230, 60, 18);
+    color: rgb(26, 122, 212);
     display: inline-block;
     padding-top: 20px;
+    padding-left: 2.5em;
+    font-size: 20px;
     /*padding-bottom: 20px;*/
+    padding-right: 0.2em;
 }
 
 isss{
@@ -253,18 +272,22 @@ isss{
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    padding-left: 2.5em;
+   /* padding-left: 2.5em; */
+   font-size: 20px;
 }
 
 afp[identificador]::before{
     content: attr(identificador) ": ";
 
     /*Estilos*/
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(65, 156, 23);
+    color: rgb(26, 122, 212);
     display: inline-block;
     padding-top: 20px;
+    padding-left: 2.5em;
+    padding-right: 0.2em;
+    font-size: 20px;
     /*padding-bottom: 20px;*/
 }
 
@@ -274,47 +297,70 @@ afp{
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    padding-left: 2.5em;
+    /*padding-left: 2.5em;*/
+    font-size: 20px;
 }
 
 /*EXPERIENCIAS LABORALES*/
 
 experienciaLaborales[titulo]::before{
-    content: attr(titulo) ":";
+    content: attr(titulo);
+
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding-left: 10px;
+    /*padding-bottom: 20px;*/
+}
+
+/*right_Side experienciaLaborales{
+    padding:1em;
+}*/
+
+
+experienciaLaborales experienciaLaboral{
+    /*padding:1em;*/
+    display: block;
+}
+
+periodo[identificador]::before{
+    content: attr(identificador) ":";
 
     /*Estilos*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(26, 122, 212);
-    display: block;
-    padding-top: 20px;
-    /*padding-bottom: 20px;*/
-}
-
-right_Side experienciaLaborales{
-    padding:1em;
-}
-
-experienciaLaboral[id]::before{
-    content: attr(id);
-
-    /*Estilos*/
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(18, 29, 39);
     display: inline-block;
     padding-top: 20px;
+    padding-left: 2.5em;
+    font-size: 20px;
+    padding-right: 0.2em;
     /*padding-bottom: 20px;*/
 }
 
-experienciaLaborales experienciaLaboral{
-    padding:1em;
-    display: block;
-}
 experienciaLaboral periodo{
     text-transform: uppercase;
     color: #003147;
     margin-top: 10px;
     display: block;
-    padding-left: 1.5em;
+    font-size: 20px;
+  /*  padding-left: 1.5em; */
+}
+
+institucionLaboral[institucion]::before{
+    content: attr(institucion) ":";
+
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(26, 122, 212);
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 2.5em;
+    font-size: 20px;
+    padding-right: 0.2em;
+    /*padding-bottom: 20px;*/
 }
 
 experienciaLaboral institucionLaboral{
@@ -322,25 +368,45 @@ experienciaLaboral institucionLaboral{
     color: #003147;
     margin-top: 10px;
     display: inline-block;
-    padding-left: 0.7em;
+    font-size: 20px;
+   /* padding-left: 0.7em; */
 }
+
+cargo[identificador]::before{
+    content: attr(identificador) ":";
+
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(26, 122, 212);
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 2.5em;
+    font-size: 20px;
+    padding-right: 0.2em;
+    /*padding-bottom: 20px;*/
+}
+
 experienciaLaboral cargo{
     text-transform: uppercase;
     color: #003147;
     margin-top: 10px;
-    padding-left: 1.5em;
+  /*  padding-left: 1.5em; */
     display: block;
+    font-size: 20px;
 }
+
+/*Competencias */
 
 competencias[titulo]::before{
     content: attr(titulo);
 
     /*Estilos*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(218, 7, 112);
     display: block;
     padding-top: 20px;
-    /*padding-bottom: 20px;*/
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding-left: 10px;
 }
 
 right_Side competencias{
@@ -355,82 +421,134 @@ competencia[id]::before{
     color: rgb(18, 29, 39);
     display: inline-block;
     padding-top: 20px;
-    padding:1em;
-    /*padding-bottom: 20px;*/
-}
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left:0.8em;
+    font-size: 20px;
 
-/*competencias competencia{
-    padding:1em;
-}*/
+}
 
 competencia tituloC {
     text-transform: uppercase;
-    color: #003147;
-    margin-top: 10px;
+    color: #002333;
+   /* margin-top: 10px; */
     display: inline-block;
     padding-left: 0.1em;
+    font-size: 21px;
 }
 competencia descripcion{
     color: #000000;
-    margin-top: 10px;
+    /*margin-top: 5px;*/
     display: block;
-    padding-left: 3em;
+    padding-left: 2.7em;
+    text-align: justify;
+    font-size: 20px;
 }
+
+/*REFERENCIAS*/
 
 referencias[titulo]::before{
     content: attr(titulo);
     
     /*Estilos*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(20, 34, 2);
     display: block;
     padding-top: 20px;
-    /*padding-bottom: 20px;*/
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding-left: 10px;
 }
 
 referencia[id]::before{
     content: attr(id);
-
     /*Estilos*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(18, 29, 39);
     display: inline-block;
-    padding-top: 20px;
-    padding:1em;
-    /*padding-bottom: 20px;*/
+    padding-right: 1em;
+    padding-top: 1em;
+    /*padding-bottom: 1em;*/
+    padding-left:0.8em;
+    font-size: 20px;
 }
 
-right_Side referencias{
-    padding:1em;
+nombreR[name]::before{
+    content: attr(name) ":";
+    
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(26, 122, 212);
+    display: inline-block;
+    /*padding-top: 20px;*/
+   /* padding-left: 2.5em; */
+    font-size: 20px;
+    padding-right: 0.2em;
+    padding-bottom: 7px;
 }
-referencias referencia{
-    padding:1em;
-}
+
 referencia nombreR {
     text-transform: uppercase;
     color: #003147;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     display: inline-block;
-    padding-left: 1.5em;
+    font-size: 20px;
+    /*padding-left: 1.5em;*/
 }
 referencia apellidoR {
     text-transform: uppercase;
     color: #003147;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     display: inline-block;
-    padding-left: 1.5em;
+    font-size: 20px;
+    /*padding-left: 1.5em;*/
 }
+
+institucionLaboralR[referencia]::before{
+    content: attr(referencia) ":";
+    
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(26, 122, 212);
+    display: inline-block;
+    /* padding-top: 20px; */
+    /*padding-left: 2.5em;*/
+    font-size: 20px;
+    padding-right: 0.2em;
+}
+
 referencia institucionLaboralR {
     text-transform: uppercase;
     color: #003147;
-    margin-top: 10px;
-    display: inline-block;
-    padding-left: 1.5em;
+    /*margin-top: 10px;*/
+    display: block;
+    padding-left: 2.6em;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 7px;
 }
+
+telefonoR[tel]::before{
+    content: attr(tel) ":";
+    
+    /*Estilos*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(26, 122, 212);
+    display: inline-block;
+   /* padding-top: 20px; */
+   /* padding-left: 2.5em; */
+    font-size: 20px;
+    padding-right: 0.2em;
+}
+
 referencia telefonoR {
     text-transform: uppercase;
     color: #003147;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     display: block;
-    padding-left: 1.5em;
+    font-size: 20px;
+    padding-left: 2.6em;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    /*padding-left: 1.5em;*/
 }

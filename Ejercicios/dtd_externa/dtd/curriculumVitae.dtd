@@ -46,8 +46,11 @@
 <!ELEMENT experienciaLaboral (institucionLaboral, cargo+, periodo)>
 <!ATTLIST experienciaLaboral id CDATA #REQUIRED>
 <!ELEMENT institucionLaboral (#PCDATA) >
+<!ATTLIST institucionLaboral institucion CDATA #REQUIRED >
 <!ELEMENT cargo (#PCDATA) >
+<!ATTLIST cargo identificador CDATA #REQUIRED >
 <!ELEMENT periodo (#PCDATA) >
+<!ATTLIST periodo identificador CDATA #REQUIRED >
 
 <!ELEMENT competencias (competencia)+>
 <!ATTLIST competencia id CDATA #REQUIRED>
@@ -59,8 +62,11 @@
 <!ELEMENT referencia (nombreR+, apellidoR+, institucionLaboralR, telefonoR+)>
 <!ATTLIST referencia id CDATA #REQUIRED>
 <!ELEMENT nombreR (#PCDATA) >
+<!ATTLIST nombreR name CDATA #IMPLIED>
 <!ATTLIST nombreR tipo (primero|segundo) #REQUIRED>
 <!ELEMENT apellidoR (#PCDATA) >
 <!ATTLIST apellidoR tipo (primero|segundo) #REQUIRED>
 <!ELEMENT institucionLaboralR (#PCDATA) >
+<!ATTLIST institucionLaboralR  referencia CDATA #REQUIRED>
 <!ELEMENT telefonoR (#PCDATA) >
+<!ATTLIST telefonoR tel CDATA #REQUIRED>
