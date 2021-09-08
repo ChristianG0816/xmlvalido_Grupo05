@@ -31,11 +31,13 @@
 <!ATTLIST afp identificador CDATA #REQUIRED >
 
 <!ELEMENT contacto (celular+, telefono?, correo?)>
+<!ATTLIST contacto titulo CDATA #REQUIRED >
 <!ELEMENT celular (#PCDATA) >
 <!ELEMENT telefono (#PCDATA) >
 <!ELEMENT correo (#PCDATA) >
 
 <!ELEMENT formacionesAcademicas (formacionAcademica)+ >
+<!ATTLIST formacionesAcademicas titulo CDATA #REQUIRED>
 <!ELEMENT formacionAcademica (institucionEducativa, tituloAcademico, periodoE)>
 <!ATTLIST formacionAcademica id CDATA #REQUIRED>
 <!ELEMENT institucionEducativa (#PCDATA) >

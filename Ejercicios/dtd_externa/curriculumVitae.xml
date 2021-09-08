@@ -3,6 +3,7 @@
 
 <!DOCTYPE curriculumVitae SYSTEM "../dtd_externa/dtd/curriculumVitae.dtd" >
 
+
 <!--Estilos -->
 
 <?xml-stylesheet type="text/css" href="../../css/ejercicio4.css" ?>
@@ -16,21 +17,21 @@
                 <foto></foto>
             </fotografia>
 
-            <formacionesAcademicas>
+            <formacionesAcademicas titulo="Formaciones Academicas">
                 <formacionAcademica id="1">
-                    <institucionEducativa>CECAM</institucionEducativa>
+                    <institucionEducativa>Centro Escolar Católico Alberto Masferrer</institucionEducativa>
                     <tituloAcademico>Bachillerato General</tituloAcademico>
                     <periodoE>2007-2018</periodoE>
                 </formacionAcademica>
         
                 <formacionAcademica id="2">
-                    <institucionEducativa>UES</institucionEducativa>
-                    <tituloAcademico>Ing en sistemas informaticos</tituloAcademico>
+                    <institucionEducativa>Universidad de El Salvador</institucionEducativa>
+                    <tituloAcademico>Ingenería en Sistemas Informaticos</tituloAcademico>
                     <periodoE>2019-2025</periodoE>
                 </formacionAcademica>
             </formacionesAcademicas>
 
-            <contacto>
+            <contacto titulo="Contacto">
                 <celular>7798-3211</celular>
                 <telefono>2258-7744</telefono>
                 <correo>pesan@gmail.com</correo>
@@ -47,21 +48,21 @@
                 <apellido tipo="segundo">Montenegro</apellido>
                 <edad identificador="Edad">28</edad>
                 <dui identificador="Dui">06974691-3</dui>
-                <nit identificador="Nit">45895530659</nit>
-                <isss identificador="Isss">5446578457</isss>
-                <afp identificador="AFP">5485847359</afp>
+                <nit identificador="Nit">0614-081200-000-0</nit>
+                <isss identificador="Isss">5446503</isss>
+                <afp identificador="AFP">54858473</afp>
             </datosPersonales>
         
-            <experienciaLaborales titulo="Experiencias Laborales">
+            <experienciaLaborales titulo="Experiencia Laboral">
                 <experienciaLaboral id="1">
-                    <institucionLaboral institucion="Institución">UES</institucionLaboral>
+                    <institucionLaboral institucion="Institución">Universidad De El Salvador</institucionLaboral>
                     <cargo identificador="Cargo">Pasante para Docencia</cargo>
                     <periodo identificador="Periodo">2023-2024</periodo>
                 </experienciaLaboral>
         
                 
                 <experienciaLaboral id="2">
-                    <institucionLaboral institucion="Institución">ITCA</institucionLaboral>
+                    <institucionLaboral institucion="Institución">ITCA Fepade</institucionLaboral>
                     <cargo identificador="Cargo">Programador</cargo>
                     <periodo identificador="Periodo">2026-2028</periodo>
                 </experienciaLaboral>
