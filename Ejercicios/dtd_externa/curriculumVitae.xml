@@ -17,7 +17,7 @@
                 <foto></foto>
             </fotografia>
 
-            <formacionesAcademicas titulo="Formaciones Academicas">
+            <formacionesAcademicas titulo="Formacion Académica">
                 <formacionAcademica id="1">
                     <institucionEducativa>Centro Escolar Católico Alberto Masferrer</institucionEducativa>
                     <tituloAcademico>Bachillerato General</tituloAcademico>
@@ -26,7 +26,7 @@
         
                 <formacionAcademica id="2">
                     <institucionEducativa>Universidad de El Salvador</institucionEducativa>
-                    <tituloAcademico>Ingenería en Sistemas Informaticos</tituloAcademico>
+                    <tituloAcademico>Ingeniería en Sistemas Informáticos</tituloAcademico>
                     <periodoE>2019-2025</periodoE>
                 </formacionAcademica>
             </formacionesAcademicas>
@@ -47,7 +47,7 @@
             <datosPersonales name="Datos Personales">
                 <nombre tipo="primero" name="Nombre"> Pedro</nombre>
                 <nombre tipo="segundo">Luis</nombre>
-                <apellido tipo="primero">Sanchez</apellido>
+                <apellido tipo="primero">Sánchez</apellido>
                 <apellido tipo="segundo">Montenegro</apellido>
                 <edad identificador="Edad">28</edad>
                 <dui identificador="Dui">06974691-3</dui>
@@ -107,7 +107,7 @@
                     <apellidoR tipo="primero">Ayala</apellidoR>
                     <apellidoR tipo="segundo">Guerra</apellidoR>
                     <institucionLaboralR referencia="Institución Laboral">SISA</institucionLaboralR>
-                    <telefonoR tel="Telefono">7795-9572</telefonoR>
+                    <telefonoR tel="Teléfono">7795-9572</telefonoR>
                 </referencia>
         
             
@@ -117,7 +117,7 @@
                     <apellidoR tipo="primero">Diaz</apellidoR>
                     <apellidoR tipo="segundo">Escobar</apellidoR>
                     <institucionLaboralR referencia="Institución Laboral">Avianca</institucionLaboralR>
-                    <telefonoR tel="Telefono">7843-1221</telefonoR>
+                    <telefonoR tel="Teléfono">7843-1221</telefonoR>
                 </referencia>
             
                 <referencia id="3">
@@ -126,7 +126,7 @@
                     <apellidoR tipo="primero">Vasquéz</apellidoR>
                     <apellidoR tipo="segundo">Rodriguez</apellidoR>
                     <institucionLaboralR referencia="Institución Laboral">Universidad de El Salvador</institucionLaboralR>
-                    <telefonoR tel="Telefono">7755-5918</telefonoR>
+                    <telefonoR tel="Teléfono">7755-5918</telefonoR>
                 </referencia>
                 
             </referencias>

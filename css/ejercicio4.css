@@ -1,9 +1,11 @@
+/*Estilos Ejercicio 4 */
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 curriculumVitae{
@@ -38,8 +40,7 @@ fotografia{
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.733);
-    /*background-color: rgb(112, 112, 112);*/
+    border-bottom: 2px solid rgba(255, 255, 255, 0.733);
 }
 
 fotografia foto{
@@ -60,13 +61,14 @@ contacto[titulo]::before{
     color: rgb(0, 0, 0);
     display:block;
     padding-top: 10px;
-    font-size: 23px;
+    font-size: 25px;
     color: rgb(235, 229, 229);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.733);
     
 }
 
 contacto{
-    padding-top: 3em;
+    padding-top: 2em;
     padding-left: 10px;
 }
 
@@ -77,17 +79,17 @@ celular[icono]::before{
     background-image: url(../img/telefono.svg);
     width: 25px;
     height: 25px;
-
+    padding-left: 2px;
+    background-repeat: no-repeat;
+    padding-right: 1em;
 }
-
 
 contacto celular{
     position: relative;
-    margin: 10px 0;
-    display: block;
+    padding-top: 15px;
+    display: inline-block;
     color: aliceblue;
-    padding-bottom: 10px;
-    /*padding-left: 1.5em;*/
+    font-size: 20px;
 }
 
 telefono[icono]::before{
@@ -97,6 +99,8 @@ telefono[icono]::before{
     background-image: url(../img/telefono-fijo.svg);
     width: 25px;
     height: 25px;
+    background-repeat: no-repeat;
+    padding-right: 1em;
 
 }
 
@@ -106,7 +110,8 @@ contacto telefono{
     /*cursor: pointer;*/
     display: block;
     color: aliceblue;
-    /*padding-left: 1.5em;*/
+    padding-left: 3px;
+    font-size: 20px;
 }
 
 correo[icono]::before{
@@ -116,6 +121,8 @@ correo[icono]::before{
     background-image: url(../img/correo-electronico.svg);
     width: 25px;
     height: 25px;
+    background-repeat: no-repeat;
+    padding-right: 1em;
 
 }
 
@@ -125,7 +132,8 @@ contacto correo{
     /*cursor: pointer;*/
     display: block;
     color: aliceblue;
-    padding-left: 4px;
+    padding-left: 3px;
+    font-size: 20px;
 }
 
 facebook[icono]::before{
@@ -135,7 +143,9 @@ facebook[icono]::before{
     background-image: url(../img/facebook.svg);
     width: 25px;
     height: 25px;
-
+    background-repeat: no-repeat;
+    padding-right: 1em;
+    
 }
 
 contacto facebook{
@@ -144,7 +154,8 @@ contacto facebook{
     /*cursor: pointer;*/
     display: block;
     color: aliceblue;
-    padding-left: 4px;
+    padding-left: 3px;
+    font-size: 20px;
 }
 
 linkedin[icono]::before{
@@ -154,7 +165,8 @@ linkedin[icono]::before{
     background-image: url(../img/linkedin.svg);
     width: 25px;
     height: 25px;
-
+    padding-right: 1em;
+    background-repeat: no-repeat;
 }
 
 contacto linkedin{
@@ -163,10 +175,9 @@ contacto linkedin{
     /*cursor: pointer;*/
     display: block;
     color: aliceblue;
-    padding-left: 4px;
+    padding-left: 3px;
+    font-size: 20px;
 }
-
-
 
 formacionesAcademicas[titulo]::before{
     content: attr(titulo);
@@ -177,9 +188,8 @@ formacionesAcademicas[titulo]::before{
     color: rgb(0, 0, 0);
     display:block;
     padding-top: 10px;
-    font-size: 23px;
+    font-size: 25px;
     color: rgb(235, 229, 229);
-    
 }
 
 formacionesAcademicas .formacionAcademica{
@@ -191,6 +201,7 @@ formacionAcademica institucionEducativa{
     font-weight: 500;
     padding-top: 0.4em;
     padding-bottom: 0.4em;
+    font-size: 20px;
 }
 
 formacionAcademica tituloAcademico{
@@ -198,12 +209,14 @@ formacionAcademica tituloAcademico{
     color: aliceblue;
     font-weight: 500;
     padding-bottom: 0.4em;
+    font-size: 20px;
 }
 
 formacionAcademica periodoE{
     display: block;
     color: aliceblue;
     font-weight: 500;
+    font-size: 20px;
 }
 
 right_Side[titulo]::before{
@@ -257,7 +270,7 @@ nombre[name]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display:inline-block;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 5px;
     font-size: 20px;
     padding-left: 2.5em;
@@ -285,22 +298,20 @@ edad[identificador]::before{
     content: attr(identificador) ": ";
 
     /*Estilos*/
-    /*text-align: center;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 2.5em;
     font-size: 20px;
-    /*padding-bottom: 20px;*/
     padding-right: 0.2em;
 }
 
 edad{
     display: block;
     color: #003147;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
     /*padding-left: 2.5em;*/
@@ -316,7 +327,7 @@ dui[identificador]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 2.5em;
     font-size: 20px;
     /*padding-bottom: 20px;*/
@@ -342,7 +353,7 @@ nit[identificador]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 2.5em;
     font-size: 20px;
     /*padding-bottom: 20px;*/
@@ -368,7 +379,7 @@ isss[identificador]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 2.5em;
     font-size: 20px;
     /*padding-bottom: 20px;*/
@@ -394,7 +405,7 @@ afp[identificador]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 2.5em;
     padding-right: 0.2em;
     font-size: 20px;
@@ -419,7 +430,7 @@ experienciaLaborales[titulo]::before{
     /*Estilos*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: block;
-    padding-top: 20px;
+    padding-top: 15px;
     color: rgb(0, 0, 0);
     font-size: 25px;
     padding-left: 10px;
@@ -444,7 +455,7 @@ periodo[identificador]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 2.5em;
     font-size: 20px;
     padding-right: 0.2em;
@@ -468,7 +479,7 @@ institucionLaboral[institucion]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 2.5em;
     font-size: 20px;
     padding-right: 0.2em;
@@ -492,7 +503,7 @@ cargo[identificador]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 2.5em;
     font-size: 20px;
     padding-right: 0.2em;
@@ -516,7 +527,7 @@ competencias[titulo]::before{
     /*Estilos*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: block;
-    padding-top: 20px;
+    padding-top: 15px;
     color: rgb(0, 0, 0);
     font-size: 25px;
     padding-left: 10px;
@@ -533,7 +544,7 @@ competencia[id]::before{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(18, 29, 39);
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-right: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -595,7 +606,7 @@ nombreR[name]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-    /*padding-top: 20px;*/
+    padding-top: 12px;
    /* padding-left: 2.5em; */
     font-size: 20px;
     padding-right: 0.2em;
@@ -627,7 +638,7 @@ institucionLaboralR[referencia]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-    /* padding-top: 20px; */
+    padding-top: 12px;
     /*padding-left: 2.5em;*/
     font-size: 20px;
     padding-right: 0.2em;
@@ -652,7 +663,7 @@ telefonoR[tel]::before{
     color: rgb(0, 0, 0);
     font-weight: bold;
     display: inline-block;
-   /* padding-top: 20px; */
+    padding-top: 12px;
    /* padding-left: 2.5em; */
     font-size: 20px;
     padding-right: 0.2em;
