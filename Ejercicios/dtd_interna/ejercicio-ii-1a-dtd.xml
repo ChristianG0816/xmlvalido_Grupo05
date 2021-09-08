@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- ejemplodtd1.xml GRUPO05 -->
+<?xml-stylesheet type="text/css" href="../../css/estilo-ii-1a.css" ?>
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
 		<!ATTLIST fichero nombre CDATA #IMPLIED>
