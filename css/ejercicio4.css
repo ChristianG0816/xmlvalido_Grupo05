@@ -70,31 +70,103 @@ contacto{
     padding-left: 10px;
 }
 
+celular[icono]::before{
+    content: attr(icono);
+    /*Estilos*/
+    display: inline-block;
+    background-image: url(../img/telefono.svg);
+    width: 25px;
+    height: 25px;
+
+}
+
+
 contacto celular{
     position: relative;
     margin: 10px 0;
-    cursor: pointer;
     display: block;
     color: aliceblue;
-    padding-left: 1.5em;
+    padding-bottom: 10px;
+    /*padding-left: 1.5em;*/
+}
+
+telefono[icono]::before{
+    content: attr(icono);
+    /*Estilos*/
+    display: inline-block;
+    background-image: url(../img/telefono-fijo.svg);
+    width: 25px;
+    height: 25px;
+
 }
 
 contacto telefono{
     position: relative;
     margin: 10px 0;
-    cursor: pointer;
+    /*cursor: pointer;*/
     display: block;
     color: aliceblue;
-    padding-left: 1.5em;
+    /*padding-left: 1.5em;*/
 }
+
+correo[icono]::before{
+    content: attr(icono);
+    /*Estilos*/
+    display: inline-block;
+    background-image: url(../img/correo-electronico.svg);
+    width: 25px;
+    height: 25px;
+
+}
+
 contacto correo{
     position: relative;
     margin: 10px 0;
-    cursor: pointer;
+    /*cursor: pointer;*/
     display: block;
     color: aliceblue;
-    padding-left: 1.5em;
+    padding-left: 4px;
 }
+
+facebook[icono]::before{
+    content: attr(icono);
+    /*Estilos*/
+    display: inline-block;
+    background-image: url(../img/facebook.svg);
+    width: 25px;
+    height: 25px;
+
+}
+
+contacto facebook{
+    position: relative;
+    margin: 10px 0;
+    /*cursor: pointer;*/
+    display: block;
+    color: aliceblue;
+    padding-left: 4px;
+}
+
+linkedin[icono]::before{
+    content: attr(icono);
+    /*Estilos*/
+    display: inline-block;
+    background-image: url(../img/linkedin.svg);
+    width: 25px;
+    height: 25px;
+
+}
+
+contacto linkedin{
+    position: relative;
+    margin: 10px 0;
+    /*cursor: pointer;*/
+    display: block;
+    color: aliceblue;
+    padding-left: 4px;
+}
+
+
 
 formacionesAcademicas[titulo]::before{
     content: attr(titulo);

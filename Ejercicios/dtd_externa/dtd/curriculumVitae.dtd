@@ -32,9 +32,16 @@
 
 <!ELEMENT contacto (celular+, telefono?, correo?)>
 <!ATTLIST contacto titulo CDATA #REQUIRED >
-<!ELEMENT celular (#PCDATA) >
-<!ELEMENT telefono (#PCDATA) >
+<!ELEMENT celular (#PCDATA)  >
+<!ATTLIST celular icono CDATA #IMPLIED >
+<!ELEMENT telefono (#PCDATA)  >
+<!ATTLIST telefono icono CDATA #IMPLIED>
 <!ELEMENT correo (#PCDATA) >
+<!ATTLIST correo icono CDATA #IMPLIED >
+<!ELEMENT facebook (#PCDATA) >
+<!ATTLIST facebook icono CDATA #IMPLIED>
+<!ELEMENT linkedin (#PCDATA)  >
+<!ATTLIST linkedin icono CDATA #IMPLIED>
 
 <!ELEMENT formacionesAcademicas (formacionAcademica)+ >
 <!ATTLIST formacionesAcademicas titulo CDATA #REQUIRED>

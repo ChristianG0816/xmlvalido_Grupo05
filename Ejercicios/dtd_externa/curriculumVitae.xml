@@ -32,9 +32,12 @@
             </formacionesAcademicas>
 
             <contacto titulo="Contacto">
-                <celular>7798-3211</celular>
-                <telefono>2258-7744</telefono>
-                <correo>pesan@gmail.com</correo>
+                <celular icono="">7798-3211</celular>
+                <telefono icono= "">2258-7744</telefono>
+                <correo icono="">PedroMontenegro26@gmail.com</correo>
+                <facebook icono="">Pedro Montenegro</facebook>
+                <linkedin icono= "">/PMontenegro</linkedin>
+
             </contacto>
 
         </left_Side>
