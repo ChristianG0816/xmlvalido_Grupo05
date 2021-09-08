@@ -1,0 +1,76 @@
+
+* {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: table;
+
+}
+
+/*nombre[sexo]::after {
+    content: " sexo: " attr(sexo);
+    color:red;
+    display: block;
+}*/
+
+/*nombre[edad]::before{
+    content: " (Edad " attr(edad)") ";
+    background-color: rgb(255, 255, 255);
+    display: block;
+}*/
+nombre[tipo]::before{
+    content: attr(tipo)" Nombre: ";
+}
+nombre{
+    background-color: rgb(185, 151, 218);
+    display: block;
+}
+
+fichero{
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+ficha[id]::before{
+    content: "Ficha: "attr(id)" ";
+   
+}
+
+ficha{
+    padding-top: 30px;
+    background-color: rgb(186, 133, 255);
+    
+    display: block;
+}
+
+apellido[tipo]::before{
+    content: attr(tipo)" Apellido: ";
+}
+apellido{
+    background-color: rgb(185, 151, 218); 
+    display: block;
+}
+direccion::before{
+content: "Direccion: ";
+}
+direccion{
+    background-color: rgb(185, 151, 218);
+    display: block !important;
+}
+DUI::before{
+    content: "DUI: ";
+}
+DUI{
+    background-color: rgb(185, 151, 218);
+    display: block !important;
+
+}
+institucion[tipo]::before{
+    content: attr(tipo) ": ";
+}
+institucion{
+    background-color: rgb(185, 151, 218);
+    display: block !important;
+}
