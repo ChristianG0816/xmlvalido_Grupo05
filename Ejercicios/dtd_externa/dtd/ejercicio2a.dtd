@@ -1,15 +1,16 @@
-<<!ELEMENT fichero (ficha+)>
-	<!ATTLIST fichero nombre CDATA #IMPLIED>
-    <!ELEMENT ficha (nombre+, apellido+, direccion*, DUI?,institucion*)>
-    <!ATTLIST ficha  id CDATA #IMPLIED>
-	<!ELEMENT nombre (#PCDATA)>
-	<!ATTLIST nombre sexo (masculino|femenino) #IMPLIED>
-    <!ATTLIST nombre edad  CDATA  #IMPLIED>
-    <!ATTLIST nombre tipo (primero|segundo)  #REQUIRED>
-	<!ELEMENT apellido (#PCDATA)>
-	<!ATTLIST apellido tipo (primero|segundo) #REQUIRED>
-	<!ELEMENT direccion (#PCDATA)>
-	<!ELEMENT DUI (#PCDATA)>
-	<!ELEMENT institucion (#PCDATA)*>
-    <!ATTLIST institucion id CDATA  #IMPLIED>
-	<!ATTLIST institucion tipo (Educación|Trabajo)  #IMPLIED>
+<-- Fichero dtd Ejercicio 2a -->
+<!ELEMENT fichero (ficha+)>
+<!ATTLIST fichero nombre CDATA #IMPLIED>
+<!ELEMENT ficha (nombre+, apellido+, direccion*, DUI?,institucion*)>
+<!ATTLIST ficha  id CDATA #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre sexo (masculino|femenino) #IMPLIED>
+<!ATTLIST nombre edad  CDATA  #IMPLIED>
+<!ATTLIST nombre tipo (primero|segundo)  #REQUIRED>
+<!ELEMENT apellido (#PCDATA)>
+<!ATTLIST apellido tipo (primero|segundo) #REQUIRED>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT DUI (#PCDATA)>
+<!ELEMENT institucion (#PCDATA)*>
+<!ATTLIST institucion id CDATA  #IMPLIED>
+<!ATTLIST institucion tipo (Educación|Trabajo)  #IMPLIED>
