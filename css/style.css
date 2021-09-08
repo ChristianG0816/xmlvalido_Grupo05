@@ -29,6 +29,7 @@ h1{
     color: #FF2D00;
     font-weight: bold;
     background-color: none;
+    padding-top: 10px;
 }
 body section{
     width:80%;

@@ -1,4 +1,3 @@
-<-- Fichero dtd Ejercicio 2a -->
 <!ELEMENT fichero (ficha+)>
 <!ATTLIST fichero nombre CDATA #IMPLIED>
 <!ELEMENT ficha (nombre+, apellido+, direccion*, DUI?,institucion*)>
