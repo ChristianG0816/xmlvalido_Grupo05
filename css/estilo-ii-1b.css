@@ -58,7 +58,6 @@ ciudad{
 calle{
     display: inline;
 }
-
 DUI{
     display: block;
     margin: 20px;
@@ -68,7 +67,6 @@ DUI::before{
     font-weight: bold;
     color: rgb(59, 36, 0);
 }
-
 estadoCivil{
     display: block;
     margin: 20px;
