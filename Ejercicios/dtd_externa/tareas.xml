@@ -7,29 +7,34 @@
         <gt numero="5" profesor ="Ing. Balmore Ortiz">
             <grupos>
                 <equipo numero="1">
-                    <tema>XML bien formado</tema>
-                        <integrantes>
-                            <coordinador>
-                                <carnet>PD78655</carnet>
-                                <apellido>Pineda Delgado</apellido>
-                                <nombre>Carolina Isabel</nombre>
-                            </coordinador>
-                            <integrante>
-                                <carnet>PD78655</carnet>
-                                <apellido>Pineda Delgado</apellido>
-                                <nombre>José Gustavo</nombre>
+                    <tema>Expresiones regulares</tema>
+                    <integrantes>
+                        <coordinador sexo="F">
+                            <carnet>PD78655</carnet>
+                            <apellido>Pineda Delgado</apellido>
+                            <nombre>Carolina Isabel</nombre>
+                         </coordinador>
+                        <integrante>
+                           <carnet>PD78655</carnet>
+                            <apellido>Pineda Delgado</apellido>
+                            <nombre>José Gustavo</nombre>
+                        </integrante>
+                        <integrante>
+                            <carnet>VM19003</carnet>
+                            <apellido>Vásquez Mancia</apellido>
+                            <nombre>William Enrique</nombre>
+                        </integrante>
+                        <integrante>
+                            <carnet>AR15151</carnet>
+                            <apellido>Amaya Rodriguez</apellido>
+                            <nombre>Miguel Angel</nombre>
                             </integrante>
-                            <integrante>
-                                <carnet>VM19003</carnet>
-                                <apellido>Vásquez Mancia</apellido>
-                                <nombre>William Enrique</nombre>
-                            </integrante>
-                            <integrante>
-                                <carnet>AR15151</carnet>
-                                <apellido>Amaya Rodriguez</apellido>
-                                <nombre>Miguel Angel</nombre>
-                            </integrante>
-                        </integrantes>
+                    </integrantes>
+                    <evaluacion>
+                    <actividadEvaluada porcentaje="25%">
+                        Guia 36
+                    </actividadEvaluada>
+                    </evaluacion>
                 </equipo>
             </grupos>
         </gt>
@@ -38,28 +43,33 @@
             <grupos>
                 <equipo numero="1">
                     <tema>XML Valido</tema>
-                        <integrantes>
-                            <coordinador>
-                                <carnet>AR15151</carnet>
-                                <apellido>Amaya Rodriguez</apellido>
-                                <nombre>Miguel Angel</nombre>
-                            </coordinador>
-                            <integrante>
-                                <carnet>AG45454</carnet>
-                                <apellido>Ayala Guerra</apellido>
-                                <nombre>Christian Javier</nombre>
-                            </integrante>
-                            <integrante>
-                                <carnet>AG45454</carnet>
-                                <apellido>Ayala Guerra</apellido>
-                                <nombre>Diego José</nombre>
-                            </integrante>
-                            <integrante>
-                                <carnet>AG45454</carnet>
-                                <apellido>Cornejo Jiménez</apellido>
-                                <nombre>Cornejo Jiménez</nombre>
-                            </integrante>
-                        </integrantes>
+                    <integrantes>
+                        <coordinador>
+                            <carnet>AR15151</carnet>
+                            <apellido>Amaya Rodriguez</apellido>
+                            <nombre>Miguel Angel</nombre>
+                        </coordinador>
+                        <integrante>
+                            <carnet>AG45454</carnet>
+                            <apellido>Ayala Guerra</apellido>
+                            <nombre>Christian Javier</nombre>
+                        </integrante>
+                        <integrante>
+                            <carnet>AG45454</carnet>
+                            <apellido>Ayala Guerra</apellido>
+                            <nombre>Diego José</nombre>
+                        </integrante>
+                        <integrante>
+                            <carnet>AG45454</carnet>
+                            <apellido>Cornejo Jiménez</apellido>
+                            <nombre>Cornejo Jiménez</nombre>
+                        </integrante>
+                    </integrantes>
+                    <evaluacion>
+                    <actividadEvaluada porcentaje="25%">
+                        Guia 32
+                    </actividadEvaluada>
+                    </evaluacion>
                 </equipo>
             </grupos>
         </gd>
@@ -67,29 +77,34 @@
         <gl numero="2" profesor ="Ing. Balmore Ortiz">
             <grupos>
                 <equipo numero="1">
-                    <tema></tema>
-                        <integrantes>
-                            <coordinador>
-                                <carnet>PD78655</carnet>
-                                <apellido>Pineda Delgado</apellido>
-                                <nombre>José Gustavo</nombre>
-                            </coordinador>
-                            <integrante>
-                                <carnet>AG45454</carnet>
-                                <apellido>Ayala Guerra</apellido>
-                                <nombre>Diego José</nombre>
-                            </integrante>
-                            <integrante>
-                                <carnet>VM19003</carnet>
-                                <apellido>Vásquez Mancia</apellido>
-                                <nombre>William Enrique</nombre>
-                            </integrante>
-                            <integrante>
-                                <carnet>AG45454</carnet>
-                                <apellido>Cornejo Jiménez</apellido>
-                                <nombre>Cornejo Jiménez</nombre>
-                            </integrante>
-                        </integrantes>
+                    <tema>XML bien formado</tema>
+                    <integrantes>
+                        <coordinador>
+                            <carnet>PD78655</carnet>
+                            <apellido>Pineda Delgado</apellido>
+                            <nombre>José Gustavo</nombre>
+                        </coordinador>
+                        <integrante>
+                            <carnet>AG45454</carnet>
+                            <apellido>Ayala Guerra</apellido>
+                            <nombre>Diego José</nombre>
+                        </integrante>
+                        <integrante>
+                            <carnet>VM19003</carnet>
+                            <apellido>Vásquez Mancia</apellido>
+                            <nombre>William Enrique</nombre>
+                        </integrante>
+                        <integrante>
+                            <carnet>AG45454</carnet>
+                            <apellido>Cornejo Jiménez</apellido>
+                            <nombre>Cornejo Jiménez</nombre>
+                        </integrante>
+                    </integrantes>
+                    <evaluacion>
+                    <actividadEvaluada porcentaje="25%">
+                        Guia 31 b
+                    </actividadEvaluada>
+                    </evaluacion>
                 </equipo>
             </grupos>
         </gl>

@@ -6,7 +6,7 @@
 <!ELEMENT gd (grupos)>
 <!ELEMENT gl (grupos)>
 <!ELEMENT grupos (equipo)+>
-<!ELEMENT equipo (tema,integrantes)*>
+<!ELEMENT equipo (tema,integrantes,evaluacion)*>
 <!ELEMENT tema (#PCDATA)>
 <!ELEMENT integrantes (coordinador,integrante+)>
 <!ELEMENT coordinador (carnet,apellido,nombre)>
@@ -14,7 +14,9 @@
 <!ELEMENT carnet (#PCDATA)>
 <!ELEMENT apellido (#PCDATA)>
 <!ELEMENT nombre (#PCDATA)>
-<!ELEMENT evaluacion (evaluacion+)>
+<!ELEMENT evaluacion (actvidadEvaluada+)>
+<!ELEMENT actividadEvaluada (#PCDATA)>
+
 <!-- ATRIBUTOS -->
 <!ATTLIST universidad nombre CDATA #FIXED "UNIVERSIDAD DE EL SALVADOR">
 <!ATTLIST facultad codigo ID #REQUIRED>
@@ -30,3 +32,4 @@
 <!ATTLIST gl profesor CDATA #REQUIRED>
 <!ATTLIST equipo numero CDATA #REQUIRED>
 <!ATTLIST coordinador sexo CDATA #FIXED "M">
+<!ATTLIST actividadEvaluada porcentaje CDATA #REQUIRED>
