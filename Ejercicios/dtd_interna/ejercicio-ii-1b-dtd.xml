@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ejemplodtd1.xml grupo 05 -->
-
+<?xml-stylesheet type="text/css" href="../../css/estilo-ii-1b.css" ?>
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
         <!ATTLIST fichero nombre CDATA #IMPLIED>
@@ -20,7 +20,7 @@
 		<!ELEMENT DUI (#PCDATA)>
         <!ELEMENT estadoCivil (#PCDATA)>
         <!ELEMENT correo (#PCDATA)>
-        <!ATTLIST correo empresarial (si|no) #REQUIRED>
+        <!ATTLIST correo tipo (empresarial|personal) #REQUIRED>
         <!ELEMENT telefono (#PCDATA)>
         <!ATTLIST telefono tipo (fijo|movil) #REQUIRED>
         <!ELEMENT empresa (#PCDATA)>
@@ -37,7 +37,7 @@
   </direccion>
   <DUI>060605-987</DUI>
   <estadoCivil>Soltera</estadoCivil>
-  <correo empresarial="si">FG45889@ues.edu.sv</correo>
+  <correo tipo="empresarial">FG45889@ues.edu.sv</correo>
   <telefono tipo="fijo">22592209</telefono>
   <empresa tipo="publica">ANDA</empresa>
  </ficha>
@@ -52,7 +52,7 @@
   </direccion>
   <DUI>760805-987</DUI>
   <estadoCivil>Casada</estadoCivil>
-  <correo empresarial="no">PH45889@gmail.com</correo>
+  <correo tipo="personal">PH45889@gmail.com</correo>
   <telefono tipo="movil">70803109</telefono>
   <empresa tipo="privada">ANEP</empresa>
  </ficha>

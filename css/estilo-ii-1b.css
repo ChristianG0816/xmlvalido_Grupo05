@@ -1,0 +1,108 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+fichero{
+    background-color: beige;
+    margin: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+ficha{
+    background-color: #ffba6a;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 400px;
+    text-align: center;
+    display: block;
+}
+ficha::before{
+    content: "Ficha número " attr(id);
+    padding: 10px;
+    display: block;
+    color: rgb(75, 4, 3);
+    font-weight: bold;
+    font-size: 30px;
+}
+nombres{
+    display: inline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+nombres::Before{
+    content: "Nombre: ";
+    display: inline;
+    font-weight: bold;
+    color: rgb(59, 36, 0);
+}
+apellidos{
+    display: inline;
+}
+direccion{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+direccion::before{
+    content: "Dirección: ";
+    font-weight: bold;
+    color: rgb(59, 36, 0);
+}
+ciudad{
+    display: inline;
+}
+calle{
+    display: inline;
+}
+
+DUI{
+    display: block;
+    margin: 20px;
+}
+DUI::before{
+    content: "Dui: ";
+    font-weight: bold;
+    color: rgb(59, 36, 0);
+}
+
+estadoCivil{
+    display: block;
+    margin: 20px;
+}
+estadoCivil::before{
+    content: "Estado civil: ";
+    font-weight: bold;
+    color: rgb(59, 36, 0);
+}
+correo{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+correo::before{
+    content: "Correo " attr(tipo) ": ";
+    font-weight: bold;
+    color: rgb(59, 36, 0);
+}
+telefono{
+    display: block;
+    margin: 20px;
+}
+telefono::before{
+    content: "Telefono " attr(tipo) ": ";
+    font-weight: bold;
+    color: rgb(59, 36, 0);
+}
+empresa{
+    display: block;
+    margin: 20px;
+}
+empresa::before{
+    content: "Empresa: ";
+    font-weight: bold;
+    color: rgb(59, 36, 0);
+}
