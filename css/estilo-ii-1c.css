@@ -1,10 +1,7 @@
 ﻿/*Definicion de caracteristicas globales*/
-
-
 * {
     display:block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
 }
 
 
@@ -12,6 +9,7 @@
 nombre[sexo]::before {
     content: " (Genero " attr(sexo) ") ";
     color:blue;
+    font-size: 30px;
 }
 
 /*Coloca el atributo despues del contenido del elemento*/
@@ -24,15 +22,17 @@ nombre[sexo]::before {
 nombre[edad]::after{
     content: " (Edad " attr(edad)") ";
     background-color: yellow;
+    font-size: 30px;
 }
 
 /*Estilos general a la etiqueta nombre*/
 nombre{
     background-color: rgb(210, 218, 230);
     padding-top: 15px;
-    height: 50px;
-    width: 304px;
-   display: inline-block !important;
+    height: 100px;
+    width: 600px;
+    display: inline-block !important;
+    font-size: 30px;
 }
 
 /*Si actuara como un html*/
@@ -45,25 +45,33 @@ fichero{
 ficha{
     padding-top: 30px;
     background-color: green;
-    height: 170px;
-    width: 400px;
+    height: 250px;
+    width: 700px;
     text-align: center;
+    border: 3px solid ;
+    border-style: dashed;
 }
 
 apellido{
     background-color: blanchedalmond;
-    height: 50px;
-    width: 150px;
+    height: 90px;
+    width: 298px;
     display: inline-block !important;
     text-align: center;
     padding-top: 20px;
+    font-size: 30px;
+    font-style: oblique;
+    color: crimson;
 }
 
 direccion{
     background-color: blueviolet;
-    height: 50px;
-    width: 150px;
+    height: 90px;
+    width: 298px;
     display: inline-block !important;
     padding-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+    color: aliceblue;
 }
 
