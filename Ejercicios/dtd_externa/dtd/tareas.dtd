@@ -21,6 +21,12 @@
 <!ATTLIST facultad nombre CDATA #REQUIRED>
 <!ATTLIST carrera codigo ID #REQUIRED>
 <!ATTLIST carrera nombre CDATA #REQUIRED>
+<!ATTLIST asignatura nombre CDATA #REQUIRED>
+<!ATTLIST gd numero CDATA #REQUIRED>
 <!ATTLIST gd profesor CDATA #REQUIRED>
+<!ATTLIST gt numero CDATA #REQUIRED>
+<!ATTLIST gt profesor CDATA #REQUIRED>
+<!ATTLIST gl numero CDATA #REQUIRED>
+<!ATTLIST gl profesor CDATA #REQUIRED>
 <!ATTLIST equipo numero CDATA #REQUIRED>
 <!ATTLIST coordinador sexo CDATA #FIXED "M">
