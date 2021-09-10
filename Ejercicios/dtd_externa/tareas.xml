@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Tarea GRUPO05 -->
+<?xml-stylesheet type="text/css" href="../../css/tareas.css" ?>
 <!DOCTYPE universidad SYSTEM "dtd/tareas.dtd">
 <universidad>
 <facultad ID="FIA" nombre="Ingenieria y Arquitectura">
@@ -8,7 +10,17 @@
             <grupos>
                 <equipo numero="1">
                     <tema>Expresiones regulares</tema>
+                    <evaluacion>
+                    <actividadEvaluada porcentaje="25%">
+                        Guia 36
+                    </actividadEvaluada>
+                    </evaluacion>
                     <integrantes>
+                        <cabecera>
+                            <carnet>CARNET</carnet>
+                            <apellido>APELLIDO</apellido>
+                            <nombre>NOMBRE</nombre>
+                        </cabecera>
                         <coordinador sexo="F">
                             <carnet>PD78655</carnet>
                             <apellido>Pineda Delgado</apellido>
@@ -30,11 +42,6 @@
                             <nombre>Miguel Angel</nombre>
                             </integrante>
                     </integrantes>
-                    <evaluacion>
-                    <actividadEvaluada porcentaje="25%">
-                        Guia 36
-                    </actividadEvaluada>
-                    </evaluacion>
                 </equipo>
             </grupos>
         </gt>
@@ -43,7 +50,17 @@
             <grupos>
                 <equipo numero="1">
                     <tema>XML Valido</tema>
+                    <evaluacion>
+                    <actividadEvaluada porcentaje="25%">
+                        Guia 32
+                    </actividadEvaluada>
+                    </evaluacion>
                     <integrantes>
+                        <cabecera>
+                            <carnet>CARNET</carnet>
+                            <apellido>APELLIDO</apellido>
+                            <nombre>NOMBRE</nombre>
+                        </cabecera>
                         <coordinador>
                             <carnet>AR15151</carnet>
                             <apellido>Amaya Rodriguez</apellido>
@@ -65,11 +82,7 @@
                             <nombre>Cornejo Jiménez</nombre>
                         </integrante>
                     </integrantes>
-                    <evaluacion>
-                    <actividadEvaluada porcentaje="25%">
-                        Guia 32
-                    </actividadEvaluada>
-                    </evaluacion>
+                    
                 </equipo>
             </grupos>
         </gd>
@@ -78,7 +91,17 @@
             <grupos>
                 <equipo numero="1">
                     <tema>XML bien formado</tema>
+                    <evaluacion>
+                    <actividadEvaluada porcentaje="25%">
+                        Guia 31 b
+                    </actividadEvaluada>
+                    </evaluacion>
                     <integrantes>
+                        <cabecera>
+                            <carnet>CARNET</carnet>
+                            <apellido>APELLIDO</apellido>
+                            <nombre>NOMBRE</nombre>
+                        </cabecera>
                         <coordinador>
                             <carnet>PD78655</carnet>
                             <apellido>Pineda Delgado</apellido>
@@ -100,11 +123,7 @@
                             <nombre>Cornejo Jiménez</nombre>
                         </integrante>
                     </integrantes>
-                    <evaluacion>
-                    <actividadEvaluada porcentaje="25%">
-                        Guia 31 b
-                    </actividadEvaluada>
-                    </evaluacion>
+                    
                 </equipo>
             </grupos>
         </gl>
