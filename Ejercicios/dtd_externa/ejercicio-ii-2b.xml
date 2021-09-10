@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ejemplodtd1.xml grupo 05 -->
+<!-- ejercicio-ii-2b.xml grupo 05 -->
+
+<?xml-stylesheet type="text/css" href="../../css/estilo-ii-1b.css" ?>
+
 <!DOCTYPE fichero SYSTEM "../dtd_externa/dtd/ejercicio2b.dtd">
 <fichero nombre="Ficha laboral">
  <ficha id = "1">

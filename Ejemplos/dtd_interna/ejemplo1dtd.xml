@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- ejemplodtd1.xml grupo 05 -->
 
+<?xml-stylesheet type="text/css" href="../dtd_interna/estilo.css" ?>
+
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
 		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
