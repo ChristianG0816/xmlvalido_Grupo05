@@ -3,9 +3,9 @@
 <?xml-stylesheet type="text/css" href="../../css/tareas.css" ?>
 <!DOCTYPE universidad SYSTEM "dtd/tareas.dtd">
 <universidad>
-<facultad ID="FIA" nombre="Ingenieria y Arquitectura">
-<carrera ID="SI" nombre="Sistemas Informaticos">
-    <asignatura nombre="Tecnicas de programacion para internet">
+<facultad ID="FIA" nombre="Ingeniería y Arquitectura">
+<carrera ID="SI" nombre="Sistemas Informáticos">
+    <asignatura nombre="Técnicas de programación para Internet">
         <gt numero="5" profesor ="Ing. Balmore Ortiz">
             <grupos>
                 <equipo numero="1">
@@ -43,13 +43,9 @@
                             </integrante>
                     </integrantes>
                 </equipo>
-            </grupos>
-        </gt>
 
-        <gd numero="2" profesor ="Ing. Balmore Ortiz">
-            <grupos>
-                <equipo numero="1">
-                    <tema>XML Valido</tema>
+                <equipo numero="3">
+                    <tema>XML Válido</tema>
                     <evaluacion>
                     <actividadEvaluada porcentaje="25%">
                         Guia 32
@@ -72,7 +68,7 @@
                             <nombre>Christian Javier</nombre>
                         </integrante>
                         <integrante>
-                            <carnet>AG45454</carnet>
+                            <carnet>AG25987</carnet>
                             <apellido>Ayala Guerra</apellido>
                             <nombre>Diego José</nombre>
                         </integrante>
@@ -82,14 +78,8 @@
                             <nombre>Cornejo Jiménez</nombre>
                         </integrante>
                     </integrantes>
-                    
                 </equipo>
-            </grupos>
-        </gd>
-
-        <gl numero="2" profesor ="Ing. Balmore Ortiz">
-            <grupos>
-                <equipo numero="1">
+                <equipo numero="2">
                     <tema>XML bien formado</tema>
                     <evaluacion>
                     <actividadEvaluada porcentaje="25%">
@@ -108,7 +98,7 @@
                             <nombre>José Gustavo</nombre>
                         </coordinador>
                         <integrante>
-                            <carnet>AG45454</carnet>
+                            <carnet>AG25987</carnet>
                             <apellido>Ayala Guerra</apellido>
                             <nombre>Diego José</nombre>
                         </integrante>
@@ -123,10 +113,9 @@
                             <nombre>Cornejo Jiménez</nombre>
                         </integrante>
                     </integrantes>
-                    
                 </equipo>
             </grupos>
-        </gl>
+        </gt>
     </asignatura>
 </carrera>
 </facultad>

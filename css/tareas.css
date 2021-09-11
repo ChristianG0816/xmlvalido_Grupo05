@@ -7,7 +7,7 @@
 
 
 facultad[nombre]::before{
-    content: "Facultdad de "attr(nombre);
+    content: "Facultad de "attr(nombre);
     display: block;
     font-size: 300%;
     text-align: center;
@@ -28,10 +28,12 @@ universidad{
     background-color: rgb(205, 240, 228);
 }
 gt[numero]::before{
-    content:"Grupo " attr(numero);
+    content:"Grupo Teórico número: " attr(numero);
     display: block;
     text-align: center;
     font-size: 150%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 integrantes{
     display: table;
