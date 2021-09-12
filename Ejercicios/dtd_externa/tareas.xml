@@ -22,12 +22,12 @@
                                     <nombre>NOMBRE</nombre>
                                 </cabecera>
                                 <coordinador sexo="F">
-                                    <carnet>PD78655</carnet>
+                                    <carnet>PD19007</carnet>
                                     <apellido>Pineda Delgado</apellido>
                                     <nombre>Carolina Isabel</nombre>
                                 </coordinador>
                                 <integrante>
-                                    <carnet>PD78655</carnet>
+                                    <carnet>PD18020</carnet>
                                     <apellido>Pineda Delgado</apellido>
                                     <nombre>José Gustavo</nombre>
                                 </integrante>
@@ -37,7 +37,7 @@
                                     <nombre>William Enrique</nombre>
                                 </integrante>
                                 <integrante>
-                                    <carnet>AR15151</carnet>
+                                    <carnet>AR19085</carnet>
                                     <apellido>Amaya Rodriguez</apellido>
                                     <nombre>Miguel Angel</nombre>
                                 </integrante>
@@ -58,22 +58,22 @@
                                     <nombre>NOMBRE</nombre>
                                 </cabecera>
                                 <coordinador sexo="M">
-                                    <carnet>AR15151</carnet>
+                                    <carnet>AR19085</carnet>
                                     <apellido>Amaya Rodriguez</apellido>
                                     <nombre>Miguel Angel</nombre>
                                 </coordinador>
                                 <integrante>
-                                    <carnet>AG45454</carnet>
+                                    <carnet>AG19013</carnet>
                                     <apellido>Ayala Guerra</apellido>
                                     <nombre>Christian Javier</nombre>
                                 </integrante>
                                 <integrante>
-                                    <carnet>AG25987</carnet>
+                                    <carnet>AG19014</carnet>
                                     <apellido>Ayala Guerra</apellido>
                                     <nombre>Diego José</nombre>
                                 </integrante>
                                 <integrante>
-                                    <carnet>CJ28569</carnet>
+                                    <carnet>CJ18011</carnet>
                                     <apellido>Cornejo Jiménez</apellido>
                                     <nombre>Luis Alonso</nombre>
                                 </integrante>
@@ -93,12 +93,12 @@
                                     <nombre>NOMBRE</nombre>
                                 </cabecera>
                                 <coordinador sexo="M">
-                                    <carnet>PD78655</carnet>
+                                    <carnet>PD18020</carnet>
                                     <apellido>Pineda Delgado</apellido>
                                     <nombre>José Gustavo</nombre>
                                 </coordinador>
                                 <integrante>
-                                    <carnet>AG25987</carnet>
+                                    <carnet>AG19014</carnet>
                                     <apellido>Ayala Guerra</apellido>
                                     <nombre>Diego José</nombre>
                                 </integrante>
@@ -108,9 +108,9 @@
                                     <nombre>William Enrique</nombre>
                                 </integrante>
                                 <integrante>
-                                    <carnet>CJ28569</carnet>
+                                    <carnet>CJ18011</carnet>
                                     <apellido>Cornejo Jiménez</apellido>
-                                    <nombre>Cornejo Jiménez</nombre>
+                                    <nombre>Luis Alonso</nombre>
                                 </integrante>
                             </integrantes>
                         </equipo>

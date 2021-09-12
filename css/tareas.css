@@ -11,36 +11,40 @@ facultad[nombre]::before{
     display: block;
     font-size: 300%;
     text-align: center;
+    padding-bottom: 30px;
 }
 carrera[nombre]::before{
-    content: "Carrera en "attr(nombre);
+    content: "Carrera: Ingeniería en " attr(nombre);
     display: block;
     text-align: center;
     font-size: 150%;
+    padding-bottom: 5px;
 }
 asignatura[nombre]::before{
-    content: "Asignatura de " attr(nombre);
+    content: "Asignatura: " attr(nombre);
     display: block;
     text-align: center;
     font-size: 150%;
 }
 universidad{
     background-color: rgb(205, 240, 228);
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 gt[numero]::before{
     content:"Profesor: "attr(profesor) " - Grupo Teórico número: " attr(numero) ;
     display: block;
     text-align: center;
     font-size: 150%;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 equipo[numero]::before{
     content:"Numero de grupo: " attr(numero) ;
     display: block;
     text-align: center;
-    font-size: 1.4rem;
-    margin: 20px;
+    font-size: 2.3em;
+    margin: 15px;
 }
 coordinador[sexo]::after{
     content:"-Sexo del coordinador: " attr(sexo);
@@ -54,12 +58,14 @@ integrantes{
     border: 1px solid;
     border-collapse: collapse;
     margin: auto;
+    font-size: 20px;
 }
 tema{
     text-align: center;
     font-size: 250%;
     display: block;
-    font:200;
+    font-size: 1.7em;
+    padding-bottom: 15px;
 }
 tema::before{
     content: "Tema: ";
@@ -93,4 +99,5 @@ actividadEvaluada[porcentaje]::after{
 actividadEvaluada{
     display: block;
     font-size: 150%;
+    padding-bottom: 30px;
 }
