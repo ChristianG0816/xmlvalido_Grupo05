@@ -28,12 +28,25 @@ universidad{
     background-color: rgb(205, 240, 228);
 }
 gt[numero]::before{
-    content:"Grupo Teórico número: " attr(numero);
+    content:"Profesor: "attr(profesor) " - Grupo Teórico número: " attr(numero) ;
     display: block;
     text-align: center;
     font-size: 150%;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+equipo[numero]::before{
+    content:"Numero des grupo: " attr(numero) ;
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 20px;
+}
+coordinador[sexo]::after{
+    content:"-Sexo del coordinador: " attr(sexo);
+    font-weight: bold;
+    font-size: 1rem;
+    position: absolute;
 }
 integrantes{
     display: table;
@@ -48,11 +61,15 @@ tema{
     display: block;
     font:200;
 }
+tema::before{
+    content: "Tema: ";
+}
 coordinador{
     display: table-row;
     text-align: center; 
     background-color: rgb(224, 224, 115);
 }
+
 integrante{
     display:table-row;
     text-align: center; 

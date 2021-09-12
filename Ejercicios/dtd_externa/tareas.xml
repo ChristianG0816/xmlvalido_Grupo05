@@ -1,122 +1,122 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Tarea GRUPO05 -->
-<?xml-stylesheet type="text/css" href="../../css/tareas.css" ?>
+<?xml-stylesheet type="text/css" href="../../css/tareas.css"?>
 <!DOCTYPE universidad SYSTEM "dtd/tareas.dtd">
 <universidad>
-<facultad ID="FIA" nombre="Ingeniería y Arquitectura">
-<carrera ID="SI" nombre="Sistemas Informáticos">
-    <asignatura nombre="Técnicas de programación para Internet">
-        <gt numero="5" profesor ="Ing. Balmore Ortiz">
-            <grupos>
-                <equipo numero="1">
-                    <tema>Expresiones regulares</tema>
-                    <evaluacion>
-                    <actividadEvaluada porcentaje="25%">
+    <facultad codigo="FIA" nombre="Ingeniería y Arquitectura">
+        <carrera codigo="SI" nombre="Sistemas Informáticos">
+            <asignatura nombre="Técnicas de programación para Internet">
+                <gt numero="5" profesor="Ing. Balmore Ortiz">
+                    <grupos>
+                        <equipo numero="1">
+                            <tema>Expresiones regulares</tema>
+                            <evaluacion>
+                                <actividadEvaluada porcentaje="25%">
                         Guia 36
                     </actividadEvaluada>
-                    </evaluacion>
-                    <integrantes>
-                        <cabecera>
-                            <carnet>CARNET</carnet>
-                            <apellido>APELLIDO</apellido>
-                            <nombre>NOMBRE</nombre>
-                        </cabecera>
-                        <coordinador sexo="F">
-                            <carnet>PD78655</carnet>
-                            <apellido>Pineda Delgado</apellido>
-                            <nombre>Carolina Isabel</nombre>
-                         </coordinador>
-                        <integrante>
-                           <carnet>PD78655</carnet>
-                            <apellido>Pineda Delgado</apellido>
-                            <nombre>José Gustavo</nombre>
-                        </integrante>
-                        <integrante>
-                            <carnet>VM19003</carnet>
-                            <apellido>Vásquez Mancia</apellido>
-                            <nombre>William Enrique</nombre>
-                        </integrante>
-                        <integrante>
-                            <carnet>AR15151</carnet>
-                            <apellido>Amaya Rodriguez</apellido>
-                            <nombre>Miguel Angel</nombre>
-                            </integrante>
-                    </integrantes>
-                </equipo>
+                            </evaluacion>
+                            <integrantes>
+                                <cabecera>
+                                    <carnet>CARNET</carnet>
+                                    <apellido>APELLIDO</apellido>
+                                    <nombre>NOMBRE</nombre>
+                                </cabecera>
+                                <coordinador sexo="F">
+                                    <carnet>PD78655</carnet>
+                                    <apellido>Pineda Delgado</apellido>
+                                    <nombre>Carolina Isabel</nombre>
+                                </coordinador>
+                                <integrante>
+                                    <carnet>PD78655</carnet>
+                                    <apellido>Pineda Delgado</apellido>
+                                    <nombre>José Gustavo</nombre>
+                                </integrante>
+                                <integrante>
+                                    <carnet>VM19003</carnet>
+                                    <apellido>Vásquez Mancia</apellido>
+                                    <nombre>William Enrique</nombre>
+                                </integrante>
+                                <integrante>
+                                    <carnet>AR15151</carnet>
+                                    <apellido>Amaya Rodriguez</apellido>
+                                    <nombre>Miguel Angel</nombre>
+                                </integrante>
+                            </integrantes>
+                        </equipo>
 
-                <equipo numero="3">
-                    <tema>XML Válido</tema>
-                    <evaluacion>
-                    <actividadEvaluada porcentaje="25%">
+                        <equipo numero="3">
+                            <tema>XML Válido</tema>
+                            <evaluacion>
+                                <actividadEvaluada porcentaje="25%">
                         Guia 32
                     </actividadEvaluada>
-                    </evaluacion>
-                    <integrantes>
-                        <cabecera>
-                            <carnet>CARNET</carnet>
-                            <apellido>APELLIDO</apellido>
-                            <nombre>NOMBRE</nombre>
-                        </cabecera>
-                        <coordinador>
-                            <carnet>AR15151</carnet>
-                            <apellido>Amaya Rodriguez</apellido>
-                            <nombre>Miguel Angel</nombre>
-                        </coordinador>
-                        <integrante>
-                            <carnet>AG45454</carnet>
-                            <apellido>Ayala Guerra</apellido>
-                            <nombre>Christian Javier</nombre>
-                        </integrante>
-                        <integrante>
-                            <carnet>AG25987</carnet>
-                            <apellido>Ayala Guerra</apellido>
-                            <nombre>Diego José</nombre>
-                        </integrante>
-                        <integrante>
-                            <carnet>CJ28569</carnet>
-                            <apellido>Cornejo Jiménez</apellido>
-                            <nombre>Cornejo Jiménez</nombre>
-                        </integrante>
-                    </integrantes>
-                </equipo>
-                <equipo numero="2">
-                    <tema>XML bien formado</tema>
-                    <evaluacion>
-                    <actividadEvaluada porcentaje="25%">
+                            </evaluacion>
+                            <integrantes>
+                                <cabecera>
+                                    <carnet>CARNET</carnet>
+                                    <apellido>APELLIDO</apellido>
+                                    <nombre>NOMBRE</nombre>
+                                </cabecera>
+                                <coordinador sexo="M">
+                                    <carnet>AR15151</carnet>
+                                    <apellido>Amaya Rodriguez</apellido>
+                                    <nombre>Miguel Angel</nombre>
+                                </coordinador>
+                                <integrante>
+                                    <carnet>AG45454</carnet>
+                                    <apellido>Ayala Guerra</apellido>
+                                    <nombre>Christian Javier</nombre>
+                                </integrante>
+                                <integrante>
+                                    <carnet>AG25987</carnet>
+                                    <apellido>Ayala Guerra</apellido>
+                                    <nombre>Diego José</nombre>
+                                </integrante>
+                                <integrante>
+                                    <carnet>CJ28569</carnet>
+                                    <apellido>Cornejo Jiménez</apellido>
+                                    <nombre>Cornejo Jiménez</nombre>
+                                </integrante>
+                            </integrantes>
+                        </equipo>
+                        <equipo numero="2">
+                            <tema>XML bien formado</tema>
+                            <evaluacion>
+                                <actividadEvaluada porcentaje="25%">
                         Guia 31 b
                     </actividadEvaluada>
-                    </evaluacion>
-                    <integrantes>
-                        <cabecera>
-                            <carnet>CARNET</carnet>
-                            <apellido>APELLIDO</apellido>
-                            <nombre>NOMBRE</nombre>
-                        </cabecera>
-                        <coordinador>
-                            <carnet>PD78655</carnet>
-                            <apellido>Pineda Delgado</apellido>
-                            <nombre>José Gustavo</nombre>
-                        </coordinador>
-                        <integrante>
-                            <carnet>AG25987</carnet>
-                            <apellido>Ayala Guerra</apellido>
-                            <nombre>Diego José</nombre>
-                        </integrante>
-                        <integrante>
-                            <carnet>VM19003</carnet>
-                            <apellido>Vásquez Mancia</apellido>
-                            <nombre>William Enrique</nombre>
-                        </integrante>
-                        <integrante>
-                            <carnet>CJ28569</carnet>
-                            <apellido>Cornejo Jiménez</apellido>
-                            <nombre>Cornejo Jiménez</nombre>
-                        </integrante>
-                    </integrantes>
-                </equipo>
-            </grupos>
-        </gt>
-    </asignatura>
-</carrera>
-</facultad>
+                            </evaluacion>
+                            <integrantes>
+                                <cabecera>
+                                    <carnet>CARNET</carnet>
+                                    <apellido>APELLIDO</apellido>
+                                    <nombre>NOMBRE</nombre>
+                                </cabecera>
+                                <coordinador sexo="M">
+                                    <carnet>PD78655</carnet>
+                                    <apellido>Pineda Delgado</apellido>
+                                    <nombre>José Gustavo</nombre>
+                                </coordinador>
+                                <integrante>
+                                    <carnet>AG25987</carnet>
+                                    <apellido>Ayala Guerra</apellido>
+                                    <nombre>Diego José</nombre>
+                                </integrante>
+                                <integrante>
+                                    <carnet>VM19003</carnet>
+                                    <apellido>Vásquez Mancia</apellido>
+                                    <nombre>William Enrique</nombre>
+                                </integrante>
+                                <integrante>
+                                    <carnet>CJ28569</carnet>
+                                    <apellido>Cornejo Jiménez</apellido>
+                                    <nombre>Cornejo Jiménez</nombre>
+                                </integrante>
+                            </integrantes>
+                        </equipo>
+                    </grupos>
+                </gt>
+            </asignatura>
+        </carrera>
+    </facultad>
 </universidad>
