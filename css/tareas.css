@@ -36,7 +36,7 @@ gt[numero]::before{
     margin-bottom: 10px;
 }
 equipo[numero]::before{
-    content:"Numero des grupo: " attr(numero) ;
+    content:"Numero de grupo: " attr(numero) ;
     display: block;
     text-align: center;
     font-size: 1.4rem;
